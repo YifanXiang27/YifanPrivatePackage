@@ -1,0 +1,16 @@
+VBSOSWWH2016 2016   scale = xsec(0.00243354) * 1000 / TotalWeight(99998) * lumi(16.81) = 0.000409086
+VBSOSWWH2016APV 2016APV   scale = xsec(0.00243354) * 1000 / TotalWeight(99998) * lumi(19.52) = 0.000475037
+VBSOSWWH2017 2017   scale = xsec(0.00243354) * 1000 / TotalWeight(99996) * lumi(41.529) = 0.00101067
+VBSOSWWH2018 2018   scale = xsec(0.00243354) * 1000 / TotalWeight(99994) * lumi(59.7) = 0.00145291
+VBSWWH2016 2016   scale = xsec(0.00151508) * 1000 / TotalWeight(98999) * lumi(16.81) = 0.00025726
+VBSWWH2016APV 2016APV   scale = xsec(0.00151508) * 1000 / TotalWeight(100000) * lumi(19.52) = 0.000295744
+VBSWWH2017 2017   scale = xsec(0.00151508) * 1000 / TotalWeight(100000) * lumi(41.529) = 0.000629198
+VBSWWH2018 2018   scale = xsec(0.00151508) * 1000 / TotalWeight(100000) * lumi(59.7) = 0.000904503
+VBSWZH2016 2016   scale = xsec(0.00155167) * 1000 / TotalWeight(99995) * lumi(16.81) = 0.000260849
+VBSWZH2016APV 2016APV   scale = xsec(0.00155167) * 1000 / TotalWeight(99993) * lumi(19.52) = 0.000302907
+VBSWZH2017 2017   scale = xsec(0.00155167) * 1000 / TotalWeight(99993) * lumi(41.529) = 0.000644438
+VBSWZH2018 2018   scale = xsec(0.00155167) * 1000 / TotalWeight(99999) * lumi(59.7) = 0.000926356
+VBSZZH2016 2016   scale = xsec(0.00106719) * 1000 / TotalWeight(98000) * lumi(16.81) = 0.000183056
+VBSZZH2016APV 2016APV   scale = xsec(0.00106719) * 1000 / TotalWeight(99000) * lumi(19.52) = 0.00021042
+VBSZZH2017 2017   scale = xsec(0.00106719) * 1000 / TotalWeight(98000) * lumi(41.529) = 0.000452238
+VBSZZH2018 2018   scale = xsec(0.00106719) * 1000 / TotalWeight(99000) * lumi(59.7) = 0.000643548

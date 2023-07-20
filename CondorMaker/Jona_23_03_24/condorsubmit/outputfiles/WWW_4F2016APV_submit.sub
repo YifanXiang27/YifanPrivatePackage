@@ -1,0 +1,18 @@
+    executable              = WWW_4F2016APV_script.sh
+    arguments               = $(ProcId)
+
+    should_transfer_files   = YES
+    transfer_input_files    = /ceph/cms/store/user/yxiang/Condor_Preselection/input/Filelist/Filelist_WWW_4F2016APV_$(ProcId).list, /ceph/cms/store/user/yxiang/Condor_Preselection/input/AnalysisFile.tar.gz
+    output                  = /ceph/cms/store/user/yxiang/Condor_Preselection/output_Jul_20_01_36/OUT_WWW_4F2016APV_Jul_20_01_36.$(ProcId).out
+    error                   = /ceph/cms/store/user/yxiang/Condor_Preselection/error_Jul_20_01_36/ERR_WWW_4F2016APV_Jul_20_01_36.$(ProcId).err
+    log                     = /ceph/cms/store/user/yxiang/Condor_Preselection/log_Jul_20_01_36/LOG_WWW_4F2016APV_Jul_20_01_36.$(ProcId).log
+
+    x509userproxy           = /tmp/x509up_u31705
+    RequestMemory           = 2048
+    RequestCpus             = 1
+
+    +SingularityImage       = "/cvmfs/singularity.opensciencegrid.org/cmssw/cms:rhel6-m202006"
+
+    +DESIRED_Sites          = "T2_US_UCSD" 
+
+    queue 7

@@ -1,0 +1,12 @@
+ERROR! ST_t-channel_antitop_4f_InclusiveDecays2016APV has strage files in the file!
+ERROR! ST_t-channel_antitop_4f_InclusiveDecays2016APV has       36        0 in the file!
+ERROR! ST_tW_antitop_5f_inclusiveDecays2016 has strage files in the file!
+ERROR! ST_tW_antitop_5f_inclusiveDecays2016 has       24        0 in the file!
+ERROR! ST_tW_antitop_5f_inclusiveDecays2017 has strage files in the file!
+ERROR! ST_tW_antitop_5f_inclusiveDecays2017 has       24        0 in the file!
+ERROR! ST_tW_antitop_5f_inclusiveDecays2018 has strage files in the file!
+ERROR! ST_tW_antitop_5f_inclusiveDecays2018 has       49        0 in the file!
+ERROR! WWW_4F2017 has strage files in the file!
+ERROR! WWW_4F2017 has       36        0 in the file!
+ERROR! WWW_4F2018 has strage files in the file!
+ERROR! WWW_4F2018 has       44        0 in the file!

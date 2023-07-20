@@ -1,0 +1,15 @@
+setting File type to List/Filelist_TTToHadronic2018_12.list
+setting File list to TTToHadronic2018_May_02_09_23_12
+setting File version to TTToHadronic2018
+*********************************
+*********Analysis Begin**********
+*********************************
+
+start loop file 1
+opening /ceph/cms/store/user/jguiang/VBSVHSkim/bkg_1lep_4ak4_or_1ak8_2ak4_v1/TTToHadronic_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1_NANOAODSIM_bkg_1lep_4ak4_or_1ak8_2ak4_v1//output_11.root
+CHECK    ROOTNAME   /ceph/cms/store/user/jguiang/VBSVHSkim/bkg_1lep_4ak4_or_1ak8_2ak4_v1/TTToHadronic_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1_NANOAODSIM_bkg_1lep_4ak4_or_1ak8_2ak4_v1//output_11.root   1   TTToHadronic2018
+CHECK_isData   0
+TTToHadronic2018   12
+setting year to : 2018   0   0   1
+0
+No Such Tree!!!

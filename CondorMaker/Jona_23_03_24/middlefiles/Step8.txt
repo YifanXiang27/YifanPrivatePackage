@@ -1,0 +1,18 @@
+    executable              = ZZZ2018_script.sh
+    arguments               = $(ProcId)
+
+    should_transfer_files   = YES
+    transfer_input_files    = /ceph/cms/store/user/yxiang/Condor_Preselection/input/Filelist/Filelist_ZZZ2018_$(ProcId).list, /ceph/cms/store/user/yxiang/Condor_Preselection/input/AnalysisFile.tar.gz
+    output                  = /ceph/cms/store/user/yxiang/Condor_Preselection/output_DATE/OUT_ZZZ2018_DATE.$(ProcId).out
+    error                   = /ceph/cms/store/user/yxiang/Condor_Preselection/error_DATE/ERR_ZZZ2018_DATE.$(ProcId).err
+    log                     = /ceph/cms/store/user/yxiang/Condor_Preselection/log_DATE/LOG_ZZZ2018_DATE.$(ProcId).log
+
+    x509userproxy           = /tmp/x509up_u31705
+    RequestMemory           = 2048
+    RequestCpus             = 1
+
+    +SingularityImage       = "/cvmfs/singularity.opensciencegrid.org/cmssw/cms:rhel6-m202006"
+
+    +DESIRED_Sites          = "T2_US_UCSD" 
+
+    queue 20
