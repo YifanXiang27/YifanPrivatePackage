@@ -2,22 +2,24 @@ be careful for the file lists in this packages before running.
 
 go into ./Combination_s2v0/ScanUAFResult/list
 Copy the getfilelist.sh from PrivatePackage/CombineUAF/getfilelist.sh to this place and run it. it will update the lists.
-************************************************
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 cp ./CombineUAF/getfilelist.sh ./BDTandCUTs/Combination_s2v0/ScanUAFResult/list/
 cd ./BDTandCUTs/Combination_s2v0/ScanUAFResult/list/
 rm -rf *.list
 sh getfilelist.sh
 cd -
-************************************************
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 then u are ready to run the full package! 
 (this process takes few hours or even days if u are setting multiple pre-selection stage and random numbers)
 
-************************************************
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 cd BDTandCUTs
 sh copy_random.sh {start number} {end number}
 #sh copy_random.sh 10 20 #for example
-************************************************
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
 the example command will copy the 11 files, starting from 10 to 20. each number indicates the random number seed u want to use in splitting the BDT training and testing trees.
 
 here are files u might want to change while running:
