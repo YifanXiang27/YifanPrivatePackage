@@ -1,6 +1,6 @@
 # this package is aiming at pre-selection and branching reduction for root files( to get the small root files)
 
-### create a directory named "Obj" in ./AnalysisFile/allboosted/AnalysisFile/
+```create a directory named "Obj" in ./AnalysisFile/allboosted/AnalysisFile/```
 
 ### all the files here should be able to easily run on condor
 
