@@ -18,21 +18,30 @@ feel free to delete/change/move other files
 ### briefly talking about this packae : 
 
 The core of this package if allboosted/AnalysisFile/
+
 this directory has all the code needed for the preselection.
 
 All the .h file(in ./allboosted/AnalysisFile/Include) should have a .C file (in ./allboosted/AnalysisFile/Src)
+
 The main part of the code is in Analysis.h and Analysis.C
+
 makeHistst aiming at saving the root trees, plots
+
 Analysis.h aiming at reading the initial rootfiles
+
 Analysis.C aiming at doing selections. There are lepton id selections defined in Electron/MuonSelection.h/C in ./allboosted/AnalysisFile/Include and ./allboosted/AnalysisFile/Src
 
 
 after you finish the coding in ./allboosted/AnalysisFile/ : 
-sh cpcommand.sh;
-cd Analysis_sig
-{setup environment}
-sh run_sig.sh
+```
+sh cpcommand.sh
 
+cd Analysis_sig
+
+{setup environment}
+
+sh run_sig.sh
+```
 
 if everything looks allright
 create some scripts directories (for example, mkdir test)
