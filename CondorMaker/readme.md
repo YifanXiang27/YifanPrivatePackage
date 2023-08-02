@@ -1,6 +1,8 @@
 # it's hard to change the condor submitting files (yes I am lazy)
 # this is the only reason this package is developed
 
+``` cp ./Jona_{xxx}/condorsubmit/outputfiles/* {Package}/AnalysisFile/allboosted/scripts*/
+
 ## the input file: you should be very careful:
 1. ./initialfiles/*.list (will talk about it later)
 2. ./condorsubmit/initialfiles/submit.sh and submit.sub. please check these two files before you submit the job. these are the files that you submit to condor.
