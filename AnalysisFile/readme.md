@@ -4,10 +4,15 @@
 
 ### input files (you should be careful) : 
 ./allboosted/AnalysisFile/
+
 ./allboosted/List_sig/ (signal list. You can copy them from the scanning of signal sample in FilelistMaker)
+
 ./allboosted/run_sig.sh (signal run command)
+
 ./allboosted/cpcommand.sh (talk about it later)
+
 ./allboosted/cpAnalysisFile.sh (talk about it later)
+
 feel free to delete/change/move other files
 
 ### briefly talking about this packae : 
