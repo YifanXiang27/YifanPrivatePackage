@@ -1,0 +1,1620 @@
+Hscore = 0.5 Wscore = 0.5 Mlb = 200
+Region AB BDT at : MD3NTr30
+Region BA BDT at : MD3NTr75
+total :       324.206  3.84369
+Difference_RegionA   0.00295949   0.135885
+Predicted_RegionA    2.63403   0.179505
+RegionA              2.62626  0.307527
+RegionB              43.417  1.4497
+RegionC              15.9104  0.922092
+RegionD              262.253  3.42455
+Hscore = 0.5 Wscore = 0.5 Mlb = 200
+Region AB BDT at : MD3NTr30
+Region BA BDT at : MD3NTr75
+total :       6.81747  0.0755067
+Difference_RegionA   -0.223463   0.0462799
+Predicted_RegionA    3.09041   0.178608
+RegionA              3.97974  0.0579092
+RegionB              1.48036  0.0348186
+RegionC              0.917752  0.0278311
+RegionD              0.439618  0.0189971
+Hscore = 0.6 Wscore = 0.5 Mlb = 180
+Region AB BDT at : 
+Region BA BDT at : MD3NTr75
+total :       298.74  3.67984
+Difference_RegionA   0.0143832   0.187923
+Predicted_RegionA    1.15784   0.098328
+RegionA              1.14142  0.187932
+RegionB              41.1428  1.41599
+RegionC              7.01964  0.536777
+RegionD              249.437  3.34855
+Hscore = 0.6 Wscore = 0.5 Mlb = 180
+Region AB BDT at : 
+Region BA BDT at : MD3NTr75
+total :       6.69193  0.074821
+Difference_RegionA   -0.249725   0.0429947
+Predicted_RegionA    2.65048   0.146252
+RegionA              3.53268  0.0546261
+RegionB              1.83501  0.0388195
+RegionC              0.782495  0.025739
+RegionD              0.541745  0.0210882
+Hscore = 0.6 Wscore = 0.5 Mlb = 200
+Region AB BDT at : MD2NTr10
+Region BA BDT at : MD3NTr20
+total :       288.912  3.6016
+Difference_RegionA   0.105284   0.204812
+Predicted_RegionA    1.19465   0.100474
+RegionA              1.08086  0.178468
+RegionB              39.7776  1.39673
+RegionC              7.23264  0.543942
+RegionD              240.821  3.27
+Hscore = 0.6 Wscore = 0.5 Mlb = 200
+Region AB BDT at : MD2NTr10
+Region BA BDT at : MD3NTr20
+total :       6.61005  0.0744059
+Difference_RegionA   -0.177204   0.0477166
+Predicted_RegionA    2.86097   0.159816
+RegionA              3.47713  0.0541781
+RegionB              1.82444  0.0387829
+RegionC              0.798969  0.026098
+RegionD              0.509502  0.0203902
+Hscore = 0.7 Wscore = 0.5 Mlb = 150
+Region AB BDT at : MD3NTr10
+Region BA BDT at : MD2NTr75
+total :       276.137  3.55884
+Difference_RegionA   0.0523342   0.214559
+Predicted_RegionA    1.10096   0.104524
+RegionA              1.04621  0.188774
+RegionB              38.6089  1.37859
+RegionC              6.55651  0.569381
+RegionD              229.925  3.22568
+Hscore = 0.7 Wscore = 0.5 Mlb = 150
+Region AB BDT at : MD3NTr10
+Region BA BDT at : MD2NTr75
+total :       6.50272  0.0736645
+Difference_RegionA   -0.22137   0.0451984
+Predicted_RegionA    2.69426   0.150632
+RegionA              3.46025  0.0540367
+RegionB              1.74218  0.0377702
+RegionC              0.789671  0.025805
+RegionD              0.510621  0.0203474
+Hscore = 0.7 Wscore = 0.5 Mlb = 160
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       268.067  3.50988
+Difference_RegionA   -0.0387045   0.188665
+Predicted_RegionA    1.10046   0.0997207
+RegionA              1.14477  0.199292
+RegionB              37.2188  1.35649
+RegionC              6.5967  0.539124
+RegionD              223.107  3.18573
+Hscore = 0.7 Wscore = 0.5 Mlb = 160
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       6.4737  0.0735113
+Difference_RegionA   -0.251605   0.0444478
+Predicted_RegionA    2.74746   0.157759
+RegionA              3.67114  0.0557033
+RegionB              1.51364  0.0350952
+RegionC              0.831067  0.0265491
+RegionD              0.457854  0.0190926
+Hscore = 0.8 Wscore = 0.5 Mlb = 150
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD2NTr40
+total :       219.357  3.19143
+Difference_RegionA   0.0049935   0.212392
+Predicted_RegionA    0.973343   0.0971036
+RegionA              0.968507  0.18044
+RegionB              30.5528  1.24444
+RegionC              5.79926  0.520066
+RegionD              182.036  2.88679
+Hscore = 0.8 Wscore = 0.5 Mlb = 150
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD2NTr40
+total :       6.1874  0.0718499
+Difference_RegionA   -0.210386   0.0476932
+Predicted_RegionA    2.69284   0.157056
+RegionA              3.41032  0.0535516
+RegionB              1.54786  0.0356744
+RegionC              0.780556  0.0257545
+RegionD              0.448668  0.0189389
+Hscore = 0.8 Wscore = 0.5 Mlb = 200
+Region AB BDT at : MD3NTr75
+Region BA BDT at : 
+total :       198.025  3.01926
+Difference_RegionA   0.0528155   0.216256
+Predicted_RegionA    1.18305   0.121861
+RegionA              1.1237  0.199696
+RegionB              27.1657  1.18468
+RegionC              7.08338  0.650535
+RegionD              162.652  2.69246
+Hscore = 0.8 Wscore = 0.5 Mlb = 200
+Region AB BDT at : MD3NTr75
+Region BA BDT at : 
+total :       6.01819  0.0709738
+Difference_RegionA   -0.141411   0.0535626
+Predicted_RegionA    2.86607   0.172882
+RegionA              3.33812  0.0531278
+RegionB              1.4991  0.0350452
+RegionC              0.775406  0.0256507
+RegionD              0.405575  0.0181275
+Hscore = 0.7 Wscore = 0.6 Mlb = 200
+Region AB BDT at : MD2NTr75
+Region BA BDT at : MD3NTr75
+total :       198.953  3.01641
+Difference_RegionA   0.0490588   0.230227
+Predicted_RegionA    1.00774   0.113556
+RegionA              0.96061  0.180905
+RegionB              27.6781  1.19583
+RegionC              5.98316  0.614905
+RegionD              164.331  2.69405
+Hscore = 0.7 Wscore = 0.6 Mlb = 200
+Region AB BDT at : MD2NTr75
+Region BA BDT at : MD3NTr75
+total :       6.05671  0.0712599
+Difference_RegionA   -0.229327   0.0480339
+Predicted_RegionA    2.66896   0.16104
+RegionA              3.46315  0.0540939
+RegionB              1.39175  0.0338661
+RegionC              0.789904  0.0258809
+RegionD              0.411901  0.0183055
+Hscore = 0.5 Wscore = 0.7 Mlb = 200
+Region AB BDT at : MD2NTr50
+Region BA BDT at : MD2NTr40
+total :       194.424  2.97117
+Difference_RegionA   0.0627112   0.220607
+Predicted_RegionA    1.12339   0.117088
+RegionA              1.0571  0.189777
+RegionB              26.9112  1.18342
+RegionC              6.67011  0.620543
+RegionD              159.785  2.64694
+Hscore = 0.5 Wscore = 0.7 Mlb = 200
+Region AB BDT at : MD2NTr50
+Region BA BDT at : MD2NTr40
+total :       6.08682  0.0713998
+Difference_RegionA   -0.199437   0.0498096
+Predicted_RegionA    2.76057   0.16627
+RegionA              3.44829  0.0538001
+RegionB              1.4181  0.0343158
+RegionC              0.806263  0.0261679
+RegionD              0.414174  0.0184702
+Hscore = 0.6 Wscore = 0.7 Mlb = 170
+Region AB BDT at : MD2NTr50
+Region BA BDT at : MD2NTr100
+total :       182.941  2.91799
+Difference_RegionA   0.0688882   0.222174
+Predicted_RegionA    1.00821   0.097907
+RegionA              0.943235  0.173344
+RegionB              24.9786  1.14724
+RegionC              6.09188  0.510321
+RegionD              150.927  2.62831
+Hscore = 0.6 Wscore = 0.7 Mlb = 170
+Region AB BDT at : MD2NTr50
+Region BA BDT at : MD2NTr100
+total :       6.01402  0.070962
+Difference_RegionA   -0.206133   0.0491342
+Predicted_RegionA    2.66315   0.159359
+RegionA              3.35466  0.0530404
+RegionB              1.45755  0.034859
+RegionC              0.776713  0.0257232
+RegionD              0.425098  0.0185874
+Hscore = 0.6 Wscore = 0.7 Mlb = 200
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr75
+total :       172.981  2.81826
+Difference_RegionA   -0.0377158   0.220153
+Predicted_RegionA    0.891552   0.107045
+RegionA              0.926496  0.180429
+RegionB              23.4338  1.11808
+RegionC              5.44711  0.592502
+RegionD              143.173  2.51175
+Hscore = 0.6 Wscore = 0.7 Mlb = 200
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr75
+total :       5.91104  0.0704364
+Difference_RegionA   -0.191345   0.0519916
+Predicted_RegionA    2.79117   0.174069
+RegionA              3.45162  0.0539609
+RegionB              1.2825  0.0325242
+RegionC              0.80639  0.0263087
+RegionD              0.370525  0.017307
+Hscore = 0.5 Wscore = 0.5 Mlb = 150
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr75
+total :       360.674  4.06023
+Difference_RegionA   0.00242919   0.194269
+Predicted_RegionA    0.933361   0.0740955
+RegionA              0.931099  0.164611
+RegionB              50.1226  1.54373
+RegionC              5.66021  0.40828
+RegionD              303.96  3.72942
+Hscore = 0.5 Wscore = 0.5 Mlb = 150
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr75
+total :       7.01598  0.0765033
+Difference_RegionA   -0.191743   0.044507
+Predicted_RegionA    2.85556   0.150947
+RegionA              3.53298  0.0544972
+RegionB              2.06606  0.041251
+RegionC              0.822118  0.026458
+RegionD              0.594822  0.021935
+Hscore = 0.5 Wscore = 0.5 Mlb = 170
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr75
+total :       341.699  3.95872
+Difference_RegionA   0.148042   0.23195
+Predicted_RegionA    0.998733   0.0914343
+RegionA              0.869945  0.156683
+RegionB              47.441  1.50505
+RegionC              6.04909  0.513856
+RegionD              287.338  3.62183
+Hscore = 0.5 Wscore = 0.5 Mlb = 170
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr75
+total :       6.93617  0.0760856
+Difference_RegionA   -0.16747   0.0461494
+Predicted_RegionA    2.87105   0.152701
+RegionA              3.44859  0.0538652
+RegionB              2.09663  0.0415729
+RegionC              0.803899  0.0261783
+RegionD              0.58706  0.0217706
+Hscore = 0.7 Wscore = 0.6 Mlb = 150
+Region AB BDT at : MD2NTr75
+Region BA BDT at : MD3NTr75
+total :       221.232  3.19467
+Difference_RegionA   0.0382765   0.226332
+Predicted_RegionA    1.06863   0.120337
+RegionA              1.02923  0.192106
+RegionB              30.8759  1.25092
+RegionC              6.33349  0.658055
+RegionD              182.994  2.85852
+Hscore = 0.7 Wscore = 0.6 Mlb = 150
+Region AB BDT at : MD2NTr75
+Region BA BDT at : MD3NTr75
+total :       6.23359  0.0721889
+Difference_RegionA   -0.249045   0.0452652
+Predicted_RegionA    2.6209   0.152631
+RegionA              3.49009  0.0542774
+RegionB              1.49113  0.0349591
+RegionC              0.798225  0.0259935
+RegionD              0.454142  0.0191676
+Hscore = 0.7 Wscore = 0.6 Mlb = 170
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr75
+total :       209.657  3.11632
+Difference_RegionA   0.0071613   0.175178
+Predicted_RegionA    1.64328   0.142781
+RegionA              1.6316  0.245841
+RegionB              28.508  1.21034
+RegionC              9.78389  0.724339
+RegionD              169.733  2.76793
+Hscore = 0.7 Wscore = 0.6 Mlb = 170
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr75
+total :       6.1624  0.0718014
+Difference_RegionA   -0.277806   0.0460916
+Predicted_RegionA    2.69901   0.167421
+RegionA              3.73724  0.0561113
+RegionB              1.19508  0.03134
+RegionC              0.852581  0.02673
+RegionD              0.377509  0.0176145
+Hscore = 0.9 Wscore = 0.6 Mlb = 170
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr50
+total :       104.334  2.22642
+Difference_RegionA   0.0950736   0.257451
+Predicted_RegionA    0.986634   0.125006
+RegionA              0.900975  0.178427
+RegionB              14.0732  0.915493
+RegionC              5.85435  0.622063
+RegionD              83.5055  1.92354
+Hscore = 0.9 Wscore = 0.6 Mlb = 170
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr50
+total :       5.39311  0.0672732
+Difference_RegionA   -0.271693   0.0523757
+Predicted_RegionA    2.50532   0.175843
+RegionA              3.43993  0.0538794
+RegionB              0.894155  0.0272352
+RegionC              0.780475  0.0255731
+RegionD              0.278553  0.015065
+Hscore = 0.5 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD2NTr50
+Region BA BDT at : MD3NTr50
+total :       201.595  3.0463
+Difference_RegionA   0.117441   0.229404
+Predicted_RegionA    1.12382   0.107711
+RegionA              1.00571  0.182585
+RegionB              27.985  1.20112
+RegionC              6.66381  0.560387
+RegionD              165.94  2.73676
+Hscore = 0.5 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD2NTr50
+Region BA BDT at : MD3NTr50
+total :       6.16326  0.0717937
+Difference_RegionA   -0.234875   0.0477556
+Predicted_RegionA    2.74416   0.166058
+RegionA              3.58656  0.0548428
+RegionB              1.34279  0.0333612
+RegionC              0.828502  0.0264783
+RegionD              0.405409  0.0182353
+Hscore = 0.5 Wscore = 0.7 Mlb = 200
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       194.424  2.97117
+Difference_RegionA   -0.0761975   0.200704
+Predicted_RegionA    0.809086   0.0730856
+RegionA              0.875821  0.173053
+RegionB              27.0925  1.18598
+RegionC              4.82685  0.37282
+RegionD              161.629  2.69302
+Hscore = 0.5 Wscore = 0.7 Mlb = 200
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       6.08682  0.0713998
+Difference_RegionA   -0.226637   0.0478348
+Predicted_RegionA    2.65769   0.159043
+RegionA              3.43653  0.0537519
+RegionB              1.42985  0.0343911
+RegionC              0.793518  0.0259545
+RegionD              0.426918  0.0187689
+Hscore = 0.7 Wscore = 0.7 Mlb = 160
+Region AB BDT at : MD2NTr50
+Region BA BDT at : MD3NTr75
+total :       162.049  2.77111
+Difference_RegionA   0.0690505   0.236493
+Predicted_RegionA    1.11951   0.125795
+RegionA              1.0472  0.199548
+RegionB              21.8944  1.08845
+RegionC              6.76689  0.670293
+RegionD              132.341  2.45056
+Hscore = 0.7 Wscore = 0.7 Mlb = 160
+Region AB BDT at : MD2NTr50
+Region BA BDT at : MD3NTr75
+total :       5.80981  0.0696889
+Difference_RegionA   -0.250937   0.0493102
+Predicted_RegionA    2.63703   0.168726
+RegionA              3.52044  0.0544945
+RegionB              1.12919  0.0303427
+RegionC              0.812333  0.0261453
+RegionD              0.347845  0.0168118
+Hscore = 0.5 Wscore = 0.5 Mlb = 200
+Region AB BDT at : MD3NTr50
+Region BA BDT at : MD2NTr10
+total :       324.206  3.84369
+Difference_RegionA   0.0339782   0.199828
+Predicted_RegionA    1.13224   0.109856
+RegionA              1.09503  0.183023
+RegionB              44.9482  1.47061
+RegionC              6.83472  0.618075
+RegionD              271.328  3.49224
+Hscore = 0.5 Wscore = 0.5 Mlb = 200
+Region AB BDT at : MD3NTr50
+Region BA BDT at : MD2NTr10
+total :       6.81747  0.0755067
+Difference_RegionA   -0.203411   0.0448604
+Predicted_RegionA    2.75407   0.149022
+RegionA              3.45733  0.0539574
+RegionB              2.00277  0.0406743
+RegionC              0.785877  0.0258113
+RegionD              0.571493  0.0216618
+Hscore = 0.6 Wscore = 0.5 Mlb = 160
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr20
+total :       311.801  3.75604
+Difference_RegionA   0.0301992   0.200004
+Predicted_RegionA    1.06785   0.0943267
+RegionA              1.03654  0.179199
+RegionB              42.9868  1.44432
+RegionC              6.4907  0.52339
+RegionD              261.287  3.42283
+Hscore = 0.6 Wscore = 0.5 Mlb = 160
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr20
+total :       6.76984  0.0752112
+Difference_RegionA   -0.201483   0.0452579
+Predicted_RegionA    2.80597   0.152981
+RegionA              3.51397  0.05443
+RegionB              1.90378  0.0395785
+RegionC              0.805545  0.0261441
+RegionD              0.546542  0.0210746
+Hscore = 0.6 Wscore = 0.5 Mlb = 200
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr40
+total :       288.912  3.6016
+Difference_RegionA   0.0843932   0.212591
+Predicted_RegionA    1.05911   0.0953239
+RegionA              0.976683  0.170104
+RegionB              39.8818  1.39778
+RegionC              6.41694  0.524812
+RegionD              241.636  3.27313
+Hscore = 0.6 Wscore = 0.5 Mlb = 200
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr40
+total :       6.61005  0.0744059
+Difference_RegionA   -0.209348   0.0457291
+Predicted_RegionA    2.7538   0.153375
+RegionA              3.48295  0.0543075
+RegionB              1.81863  0.0386013
+RegionC              0.788043  0.0259161
+RegionD              0.520428  0.0206208
+Hscore = 0.7 Wscore = 0.5 Mlb = 150
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr50
+total :       276.137  3.55884
+Difference_RegionA   -0.00459863   0.220151
+Predicted_RegionA    0.895152   0.090432
+RegionA              0.899288  0.176932
+RegionB              38.7558  1.38016
+RegionC              5.33876  0.499154
+RegionD              231.143  3.23729
+Hscore = 0.7 Wscore = 0.5 Mlb = 150
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr50
+total :       6.50272  0.0736645
+Difference_RegionA   -0.231053   0.0442789
+Predicted_RegionA    2.60439   0.144232
+RegionA              3.38695  0.0534371
+RegionB              1.81548  0.0386137
+RegionC              0.766193  0.025492
+RegionD              0.5341  0.0207382
+Hscore = 0.6 Wscore = 0.6 Mlb = 150
+Region AB BDT at : MD2NTr75
+Region BA BDT at : MD3NTr75
+total :       256.976  3.4142
+Difference_RegionA   0.0973626   0.234095
+Predicted_RegionA    1.04851   0.102304
+RegionA              0.955485  0.18126
+RegionB              35.7705  1.33069
+RegionC              6.27218  0.558459
+RegionD              213.978  3.08889
+Hscore = 0.6 Wscore = 0.6 Mlb = 150
+Region AB BDT at : MD2NTr75
+Region BA BDT at : MD3NTr75
+total :       6.51157  0.0738289
+Difference_RegionA   -0.211995   0.0459299
+Predicted_RegionA    2.7573   0.154912
+RegionA              3.49908  0.054299
+RegionB              1.70132  0.0374709
+RegionC              0.810845  0.0263376
+RegionD              0.500312  0.0201144
+Hscore = 0.7 Wscore = 0.6 Mlb = 170
+Region AB BDT at : MD3NTr10
+Region BA BDT at : MD2NTr50
+total :       209.657  3.11632
+Difference_RegionA   0.140165   0.251811
+Predicted_RegionA    1.13194   0.122912
+RegionA              0.992785  0.19093
+RegionB              29.1469  1.2202
+RegionC              6.71105  0.663638
+RegionD              172.806  2.78311
+Hscore = 0.7 Wscore = 0.6 Mlb = 170
+Region AB BDT at : MD3NTr10
+Region BA BDT at : MD2NTr50
+total :       6.1624  0.0718014
+Difference_RegionA   -0.221443   0.0473462
+Predicted_RegionA    2.6641   0.156537
+RegionA              3.42185  0.05364
+RegionB              1.51047  0.0354037
+RegionC              0.785012  0.0257432
+RegionD              0.445078  0.0190277
+Hscore = 0.9 Wscore = 0.6 Mlb = 150
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr75
+total :       110.624  2.28499
+Difference_RegionA   0.0969735   0.248244
+Predicted_RegionA    1.02098   0.1261
+RegionA              0.930728  0.176488
+RegionB              15.0444  0.938283
+RegionC              6.0151  0.627014
+RegionD              88.6338  1.97902
+Hscore = 0.9 Wscore = 0.6 Mlb = 150
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr75
+total :       5.45917  0.0676587
+Difference_RegionA   -0.243265   0.0539379
+Predicted_RegionA    2.61707   0.182005
+RegionA              3.45837  0.0540033
+RegionB              0.92195  0.0276335
+RegionC              0.797804  0.0258799
+RegionD              0.281053  0.0150984
+Hscore = 0.5 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD2NTr40
+Region BA BDT at : MD3NTr75
+total :       217.128  3.15301
+Difference_RegionA   0.0458528   0.22605
+Predicted_RegionA    1.09211   0.119767
+RegionA              1.04423  0.19449
+RegionB              30.3708  1.2438
+RegionC              6.44631  0.647923
+RegionD              179.267  2.81724
+Hscore = 0.5 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD2NTr40
+Region BA BDT at : MD3NTr75
+total :       6.26898  0.072352
+Difference_RegionA   -0.224274   0.0464071
+Predicted_RegionA    2.66964   0.154169
+RegionA              3.44147  0.053753
+RegionB              1.55685  0.0358255
+RegionC              0.802602  0.0260368
+RegionD              0.468052  0.019597
+Hscore = 0.7 Wscore = 0.7 Mlb = 170
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr30
+total :       158.321  2.74207
+Difference_RegionA   0.131982   0.251266
+Predicted_RegionA    1.13804   0.12682
+RegionA              1.00536  0.192999
+RegionB              21.3773  1.07779
+RegionC              6.87103  0.670542
+RegionD              129.067  2.4229
+Hscore = 0.7 Wscore = 0.7 Mlb = 170
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr30
+total :       5.76796  0.0694506
+Difference_RegionA   -0.2416   0.0503997
+Predicted_RegionA    2.66601   0.172308
+RegionA              3.51531  0.0543581
+RegionB              1.10311  0.0301675
+RegionC              0.8131  0.0262329
+RegionD              0.336436  0.0164421
+Hscore = 0.8 Wscore = 0.7 Mlb = 160
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr10
+total :       128.835  2.49244
+Difference_RegionA   -0.00919696   0.216931
+Predicted_RegionA    1.03733   0.122731
+RegionA              1.04696  0.192874
+RegionB              17.2404  0.992657
+RegionC              6.27398  0.634973
+RegionD              104.274  2.1878
+Hscore = 0.8 Wscore = 0.7 Mlb = 160
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr10
+total :       5.53748  0.0680333
+Difference_RegionA   -0.216782   0.0546989
+Predicted_RegionA    2.70978   0.18447
+RegionA              3.45981  0.0539531
+RegionB              0.980915  0.0283271
+RegionC              0.805258  0.0261069
+RegionD              0.291496  0.015284
+Hscore = 0.6 Wscore = 0.5 Mlb = 160
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr100
+total :       311.801  3.75604
+Difference_RegionA   0.0520357   0.19472
+Predicted_RegionA    1.15643   0.0982169
+RegionA              1.09923  0.180771
+RegionB              42.9241  1.44412
+RegionC              7.02502  0.540028
+RegionD              260.753  3.42024
+Hscore = 0.6 Wscore = 0.5 Mlb = 160
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr100
+total :       6.76984  0.0752112
+Difference_RegionA   -0.214231   0.0446967
+Predicted_RegionA    2.81   0.153899
+RegionA              3.57611  0.0549434
+RegionB              1.84164  0.0388626
+RegionC              0.816779  0.0263375
+RegionD              0.535308  0.0208324
+Hscore = 0.6 Wscore = 0.5 Mlb = 200
+Region AB BDT at : MD2NTr100
+Region BA BDT at : MD3NTr75
+total :       288.912  3.6016
+Difference_RegionA   0.0679317   0.207931
+Predicted_RegionA    0.985415   0.0855075
+RegionA              0.922733  0.160831
+RegionB              39.9358  1.39888
+RegionC              5.97332  0.46725
+RegionD              242.08  3.28184
+Hscore = 0.6 Wscore = 0.5 Mlb = 200
+Region AB BDT at : MD2NTr100
+Region BA BDT at : MD3NTr75
+total :       6.61005  0.0744059
+Difference_RegionA   -0.164558   0.0481137
+Predicted_RegionA    2.84259   0.157445
+RegionA              3.40249  0.0536774
+RegionB              1.89908  0.0394729
+RegionC              0.784416  0.0259552
+RegionD              0.524055  0.0205716
+Hscore = 0.7 Wscore = 0.5 Mlb = 180
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr100
+total :       257.195  3.44221
+Difference_RegionA   0.0560382   0.161319
+Predicted_RegionA    2.09439   0.140963
+RegionA              1.98326  0.271968
+RegionB              34.8386  1.31889
+RegionC              12.4969  0.670064
+RegionD              207.876  3.09619
+Hscore = 0.7 Wscore = 0.5 Mlb = 180
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr100
+total :       6.39723  0.0731195
+Difference_RegionA   -0.248016   0.0459365
+Predicted_RegionA    2.79684   0.16556
+RegionA              3.71927  0.0560988
+RegionB              1.41646  0.0339169
+RegionC              0.837396  0.0264943
+RegionD              0.424099  0.0186302
+Hscore = 0.7 Wscore = 0.6 Mlb = 170
+Region AB BDT at : MD2NTr30
+Region BA BDT at : 
+total :       209.657  3.11632
+Difference_RegionA   0.00601908   0.170629
+Predicted_RegionA    1.77381   0.164744
+RegionA              1.7632  0.25023
+RegionB              28.3764  1.20944
+RegionC              10.5614  0.854639
+RegionD              168.956  2.73051
+Hscore = 0.7 Wscore = 0.6 Mlb = 170
+Region AB BDT at : MD2NTr30
+Region BA BDT at : 
+total :       6.1624  0.0718014
+Difference_RegionA   -0.202759   0.0504253
+Predicted_RegionA    2.8858   0.177147
+RegionA              3.61974  0.0551717
+RegionB              1.31258  0.032966
+RegionC              0.845516  0.0265897
+RegionD              0.384574  0.0178256
+Hscore = 0.5 Wscore = 0.7 Mlb = 160
+Region AB BDT at : MD2NTr75
+Region BA BDT at : MD2NTr75
+total :       210.649  3.10941
+Difference_RegionA   0.0392519   0.228102
+Predicted_RegionA    1.0098   0.111102
+RegionA              0.971656  0.184536
+RegionB              29.3056  1.22546
+RegionC              6.0081  0.603842
+RegionD              174.363  2.78712
+Hscore = 0.5 Wscore = 0.7 Mlb = 160
+Region AB BDT at : MD2NTr75
+Region BA BDT at : MD2NTr75
+total :       6.23618  0.0721688
+Difference_RegionA   -0.198021   0.0484817
+Predicted_RegionA    2.7808   0.162451
+RegionA              3.46742  0.0539122
+RegionB              1.51094  0.0353789
+RegionC              0.814989  0.0263257
+RegionD              0.442823  0.0188971
+Hscore = 0.5 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD3NTr10
+Region BA BDT at : MD2NTr75
+total :       201.595  3.0463
+Difference_RegionA   0.0286376   0.217461
+Predicted_RegionA    1.02965   0.111934
+RegionA              1.00099  0.181493
+RegionB              27.9897  1.20128
+RegionC              6.12424  0.603403
+RegionD              166.48  2.7276
+Hscore = 0.5 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD3NTr10
+Region BA BDT at : MD2NTr75
+total :       6.16326  0.0717937
+Difference_RegionA   -0.202703   0.0489445
+Predicted_RegionA    2.75278   0.163451
+RegionA              3.45264  0.0538111
+RegionB              1.47671  0.0350009
+RegionC              0.803096  0.026056
+RegionD              0.430814  0.0188338
+Hscore = 0.6 Wscore = 0.7 Mlb = 160
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       187.491  2.95143
+Difference_RegionA   0.0038255   0.206827
+Predicted_RegionA    1.05432   0.105225
+RegionA              1.0503  0.18932
+RegionB              25.5143  1.15854
+RegionC              6.38605  0.556902
+RegionD              154.541  2.65004
+Hscore = 0.6 Wscore = 0.7 Mlb = 160
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       6.05705  0.0712026
+Difference_RegionA   -0.25281   0.0475126
+Predicted_RegionA    2.69221   0.166174
+RegionA              3.60311  0.0550708
+RegionB              1.24131  0.0319704
+RegionC              0.829955  0.0265282
+RegionD              0.382671  0.0176397
+Hscore = 0.6 Wscore = 0.5 Mlb = 170
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr100
+total :       304.38  3.71247
+Difference_RegionA   0.0452797   0.193939
+Predicted_RegionA    1.08744   0.0837303
+RegionA              1.04033  0.175615
+RegionB              41.9457  1.42826
+RegionC              6.60535  0.447605
+RegionD              254.789  3.39283
+Hscore = 0.6 Wscore = 0.5 Mlb = 170
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr100
+total :       6.72578  0.0749817
+Difference_RegionA   -0.191295   0.0461712
+Predicted_RegionA    2.8624   0.15734
+RegionA              3.53948  0.0546178
+RegionB              1.84552  0.0389789
+RegionC              0.815188  0.0264367
+RegionD              0.525588  0.0205159
+Hscore = 0.7 Wscore = 0.5 Mlb = 150
+Region AB BDT at : 
+Region BA BDT at : MD3NTr75
+total :       276.137  3.55884
+Difference_RegionA   0.084894   0.220682
+Predicted_RegionA    1.153   0.115225
+RegionA              1.06278  0.188296
+RegionB              38.5923  1.37865
+RegionC              6.86029  0.633039
+RegionD              229.621  3.21379
+Hscore = 0.7 Wscore = 0.5 Mlb = 150
+Region AB BDT at : 
+Region BA BDT at : MD3NTr75
+total :       6.50272  0.0736645
+Difference_RegionA   -0.240615   0.0439605
+Predicted_RegionA    2.61881   0.145971
+RegionA              3.44859  0.0539032
+RegionB              1.75384  0.0379604
+RegionC              0.778754  0.0256294
+RegionD              0.521538  0.020568
+Hscore = 0.9 Wscore = 0.5 Mlb = 180
+Region AB BDT at : MD2NTr40
+Region BA BDT at : MD2NTr100
+total :       129.488  2.47767
+Difference_RegionA   0.0324948   0.212266
+Predicted_RegionA    1.14685   0.116586
+RegionA              1.11076  0.198485
+RegionB              17.6487  0.996732
+RegionC              6.75637  0.553059
+RegionD              103.973  2.19092
+Hscore = 0.9 Wscore = 0.5 Mlb = 180
+Region AB BDT at : MD2NTr40
+Region BA BDT at : MD2NTr100
+total :       5.59086  0.0684622
+Difference_RegionA   -0.2246   0.052748
+Predicted_RegionA    2.65222   0.175541
+RegionA              3.42045  0.0537551
+RegionB              1.08389  0.0298997
+RegionC              0.771307  0.0255512
+RegionD              0.315212  0.0158307
+Hscore = 0.5 Wscore = 0.6 Mlb = 180
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       267.229  3.47048
+Difference_RegionA   0.0458286   0.16734
+Predicted_RegionA    1.85748   0.14459
+RegionA              1.77609  0.248289
+RegionB              36.677  1.34414
+RegionC              11.0277  0.740851
+RegionD              217.748  3.10274
+Hscore = 0.5 Wscore = 0.6 Mlb = 180
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       6.60365  0.0743419
+Difference_RegionA   -0.217751   0.0480754
+Predicted_RegionA    3.08115   0.183917
+RegionA              3.93883  0.0576248
+RegionB              1.34295  0.0331546
+RegionC              0.920619  0.0279172
+RegionD              0.40126  0.0180967
+Hscore = 0.6 Wscore = 0.6 Mlb = 170
+Region AB BDT at : 
+Region BA BDT at : MD3NTr75
+total :       243.576  3.32973
+Difference_RegionA   -0.0196238   0.154972
+Predicted_RegionA    1.75942   0.133771
+RegionA              1.79464  0.248715
+RegionB              32.9682  1.2864
+RegionC              10.5792  0.6717
+RegionD              198.234  2.98651
+Hscore = 0.6 Wscore = 0.6 Mlb = 170
+Region AB BDT at : 
+Region BA BDT at : MD3NTr75
+total :       6.43749  0.0734375
+Difference_RegionA   -0.215939   0.04731
+Predicted_RegionA    2.85533   0.166734
+RegionA              3.64172  0.0553554
+RegionB              1.50744  0.035342
+RegionC              0.843185  0.0266696
+RegionD              0.445149  0.0191969
+Hscore = 0.8 Wscore = 0.6 Mlb = 160
+Region AB BDT at : MD2NTr20
+Region BA BDT at : MD3NTr75
+total :       170.837  2.82921
+Difference_RegionA   -0.107612   0.183038
+Predicted_RegionA    1.10048   0.119775
+RegionA              1.23319  0.214392
+RegionB              23.2997  1.11111
+RegionC              6.59851  0.634553
+RegionD              139.706  2.51421
+Hscore = 0.8 Wscore = 0.6 Mlb = 160
+Region AB BDT at : MD2NTr20
+Region BA BDT at : MD3NTr75
+total :       5.9076  0.0702885
+Difference_RegionA   -0.184561   0.0524123
+Predicted_RegionA    2.81144   0.17528
+RegionA              3.44776  0.0538895
+RegionB              1.28685  0.0325391
+RegionC              0.804667  0.026065
+RegionD              0.368313  0.0172689
+Hscore = 0.6 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD2NTr100
+Region BA BDT at : MD2NTr40
+total :       193.328  2.99323
+Difference_RegionA   0.0255502   0.167631
+Predicted_RegionA    1.76209   0.140789
+RegionA              1.71819  0.245007
+RegionB              25.8085  1.16583
+RegionC              10.5967  0.6743
+RegionD              155.205  2.66186
+Hscore = 0.6 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD2NTr100
+Region BA BDT at : MD2NTr40
+total :       6.0852  0.0713478
+Difference_RegionA   -0.244775   0.0486098
+Predicted_RegionA    2.77691   0.173741
+RegionA              3.67693  0.0555545
+RegionB              1.18535  0.0313166
+RegionC              0.857073  0.0269271
+RegionD              0.36585  0.0172745
+Hscore = 0.6 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD2NTr75
+Region BA BDT at : MD3NTr75
+total :       179.586  2.89374
+Difference_RegionA   -0.000515987   0.207529
+Predicted_RegionA    1.03593   0.104178
+RegionA              1.03647  0.188283
+RegionB              24.3377  1.13433
+RegionC              6.29605  0.550044
+RegionD              147.916  2.59789
+Hscore = 0.6 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD2NTr75
+Region BA BDT at : MD3NTr75
+total :       5.98516  0.0708263
+Difference_RegionA   -0.22485   0.0499093
+Predicted_RegionA    2.74665   0.17172
+RegionA              3.54338  0.0545417
+RegionB              1.25267  0.032296
+RegionC              0.816653  0.026317
+RegionD              0.372451  0.0174915
+Hscore = 0.7 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr30
+Region BA BDT at : MD3NTr75
+total :       167.196  2.8107
+Difference_RegionA   -0.0237743   0.215575
+Predicted_RegionA    1.03651   0.116903
+RegionA              1.06175  0.201573
+RegionB              22.7349  1.10486
+RegionC              6.25265  0.6261
+RegionD              137.146  2.49934
+Hscore = 0.7 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr30
+Region BA BDT at : MD3NTr75
+total :       5.83626  0.0698315
+Difference_RegionA   -0.217013   0.0508585
+Predicted_RegionA    2.71783   0.171408
+RegionA              3.47111  0.0539446
+RegionB              1.19505  0.0314925
+RegionC              0.812736  0.0262387
+RegionD              0.357365  0.0169167
+Hscore = 0.8 Wscore = 0.7 Mlb = 160
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr10
+total :       128.835  2.49244
+Difference_RegionA   0.0552037   0.242527
+Predicted_RegionA    1.00979   0.120745
+RegionA              0.956966  0.187839
+RegionB              17.3304  0.993622
+RegionC              6.08666  0.625803
+RegionD              104.461  2.19044
+Hscore = 0.8 Wscore = 0.7 Mlb = 160
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr10
+total :       5.53748  0.0680333
+Difference_RegionA   -0.201903   0.0538862
+Predicted_RegionA    2.65033   0.173911
+RegionA              3.32081  0.052814
+RegionB              1.11991  0.030398
+RegionC              0.770974  0.0255533
+RegionD              0.32578  0.0161927
+Hscore = 0.6 Wscore = 0.5 Mlb = 180
+Region AB BDT at : MD3NTr10
+Region BA BDT at : MD3NTr75
+total :       298.74  3.67984
+Difference_RegionA   -0.0234048   0.184357
+Predicted_RegionA    1.09496   0.0962348
+RegionA              1.1212  0.187316
+RegionB              41.163  1.41607
+RegionC              6.64512  0.529996
+RegionD              249.811  3.34963
+Hscore = 0.6 Wscore = 0.5 Mlb = 180
+Region AB BDT at : MD3NTr10
+Region BA BDT at : MD3NTr75
+total :       6.69193  0.074821
+Difference_RegionA   -0.201122   0.0460806
+Predicted_RegionA    2.85449   0.158694
+RegionA              3.57312  0.0549391
+RegionB              1.79457  0.0383754
+RegionC              0.813073  0.0263251
+RegionD              0.511167  0.0203518
+Hscore = 0.8 Wscore = 0.5 Mlb = 150
+Region AB BDT at : MD3NTr50
+Region BA BDT at : MD3NTr10
+total :       219.357  3.19143
+Difference_RegionA   0.123632   0.237735
+Predicted_RegionA    1.12612   0.118741
+RegionA              1.00221  0.183837
+RegionB              30.5191  1.24394
+RegionC              6.68427  0.641382
+RegionD              181.151  2.86228
+Hscore = 0.8 Wscore = 0.5 Mlb = 150
+Region AB BDT at : MD3NTr50
+Region BA BDT at : MD3NTr10
+total :       6.1874  0.0718499
+Difference_RegionA   -0.219985   0.0477065
+Predicted_RegionA    2.73427   0.161782
+RegionA              3.50541  0.0542824
+RegionB              1.45277  0.0345522
+RegionC              0.802722  0.0260771
+RegionD              0.426502  0.0184921
+Hscore = 0.5 Wscore = 0.6 Mlb = 150
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr75
+total :       287.764  3.59365
+Difference_RegionA   0.109653   0.23187
+Predicted_RegionA    1.07906   0.111273
+RegionA              0.972428  0.176729
+RegionB              40.3864  1.40163
+RegionC              6.41224  0.616587
+RegionD              239.993  3.24628
+Hscore = 0.5 Wscore = 0.6 Mlb = 150
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr75
+total :       6.71419  0.0749143
+Difference_RegionA   -0.193399   0.0460054
+Predicted_RegionA    2.85625   0.156854
+RegionA              3.5411  0.0545554
+RegionB              1.81107  0.0386825
+RegionC              0.833519  0.0266465
+RegionD              0.528511  0.0207238
+Hscore = 0.6 Wscore = 0.6 Mlb = 150
+Region AB BDT at : 
+Region BA BDT at : MD2NTr75
+total :       256.976  3.4142
+Difference_RegionA   0.0947699   0.215108
+Predicted_RegionA    1.08995   0.091512
+RegionA              0.995599  0.176863
+RegionB              35.7303  1.33128
+RegionC              6.51983  0.481336
+RegionD              213.73  3.10185
+Hscore = 0.6 Wscore = 0.6 Mlb = 150
+Region AB BDT at : 
+Region BA BDT at : MD2NTr75
+total :       6.51157  0.0738289
+Difference_RegionA   -0.189454   0.0468936
+Predicted_RegionA    2.73994   0.152486
+RegionA              3.38036  0.0534319
+RegionB              1.82005  0.0386974
+RegionC              0.787829  0.025865
+RegionD              0.523329  0.0207185
+Hscore = 0.9 Wscore = 0.6 Mlb = 150
+Region AB BDT at : MD2NTr30
+Region BA BDT at : MD3NTr75
+total :       110.624  2.28499
+Difference_RegionA   0.0671764   0.235413
+Predicted_RegionA    1.05859   0.12808
+RegionA              0.991955  0.182969
+RegionB              14.9832  0.937041
+RegionC              6.24585  0.631642
+RegionD              88.4031  1.97755
+Hscore = 0.9 Wscore = 0.6 Mlb = 150
+Region AB BDT at : MD2NTr30
+Region BA BDT at : MD3NTr75
+total :       5.45917  0.0676587
+Difference_RegionA   -0.272309   0.0514169
+Predicted_RegionA    2.5072   0.172747
+RegionA              3.44542  0.0539538
+RegionB              0.934901  0.0277302
+RegionC              0.785831  0.0256321
+RegionD              0.293026  0.0155153
+Hscore = 0.5 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD2NTr50
+Region BA BDT at : MD3NTr75
+total :       217.128  3.15301
+Difference_RegionA   0.000863546   0.208781
+Predicted_RegionA    1.04442   0.112869
+RegionA              1.04352  0.186189
+RegionB              30.3715  1.24507
+RegionC              6.17401  0.609655
+RegionD              179.539  2.82577
+Hscore = 0.5 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD2NTr50
+Region BA BDT at : MD3NTr75
+total :       6.26898  0.072352
+Difference_RegionA   -0.225934   0.046569
+Predicted_RegionA    2.7028   0.157122
+RegionA              3.49169  0.0540847
+RegionB              1.50664  0.0353227
+RegionC              0.815863  0.0262971
+RegionD              0.454791  0.0192463
+Hscore = 0.5 Wscore = 0.7 Mlb = 160
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       210.649  3.10941
+Difference_RegionA   0.0519827   0.229639
+Predicted_RegionA    1.01153   0.111595
+RegionA              0.961543  0.181117
+RegionB              29.3157  1.22597
+RegionC              6.01605  0.606605
+RegionD              174.355  2.78652
+Hscore = 0.5 Wscore = 0.7 Mlb = 160
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       6.23618  0.0721688
+Difference_RegionA   -0.234456   0.0466343
+Predicted_RegionA    2.72324   0.160527
+RegionA              3.55726  0.0546553
+RegionB              1.42111  0.0342197
+RegionC              0.826505  0.0265156
+RegionD              0.431307  0.0186298
+Hscore = 0.5 Wscore = 0.7 Mlb = 170
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr100
+total :       205.46  3.07273
+Difference_RegionA   0.046894   0.217612
+Predicted_RegionA    1.08509   0.115221
+RegionA              1.03649  0.185217
+RegionB              28.5889  1.21226
+RegionC              6.42978  0.617187
+RegionD              169.405  2.74897
+Hscore = 0.5 Wscore = 0.7 Mlb = 170
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD2NTr100
+total :       6.19277  0.0719305
+Difference_RegionA   -0.209567   0.0481765
+Predicted_RegionA    2.74567   0.161807
+RegionA              3.47363  0.054028
+RegionB              1.47253  0.0348238
+RegionC              0.811437  0.0262395
+RegionD              0.435181  0.0188085
+Hscore = 0.5 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr30
+total :       201.595  3.0463
+Difference_RegionA   0.0140601   0.213183
+Predicted_RegionA    0.995784   0.100962
+RegionA              0.981977  0.180843
+RegionB              28.0088  1.20138
+RegionC              5.92584  0.535607
+RegionD              166.678  2.74172
+Hscore = 0.5 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr30
+total :       6.16326  0.0717937
+Difference_RegionA   -0.23745   0.0468271
+Predicted_RegionA    2.6737   0.158893
+RegionA              3.50626  0.0542409
+RegionB              1.42309  0.0343311
+RegionC              0.805291  0.0261933
+RegionD              0.428619  0.0186424
+Hscore = 0.6 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD2NTr40
+Region BA BDT at : MD2NTr40
+total :       179.586  2.89374
+Difference_RegionA   0.0350532   0.219856
+Predicted_RegionA    1.0434   0.0999411
+RegionA              1.00806  0.191116
+RegionB              24.3661  1.13386
+RegionC              6.33245  0.518296
+RegionD              147.879  2.60441
+Hscore = 0.6 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD2NTr40
+Region BA BDT at : MD2NTr40
+total :       5.98516  0.0708263
+Difference_RegionA   -0.193732   0.0513562
+Predicted_RegionA    2.79385   0.172556
+RegionA              3.46516  0.0539662
+RegionB              1.33089  0.0332487
+RegionC              0.805428  0.0261553
+RegionD              0.383677  0.0177324
+Hscore = 0.5 Wscore = 0.6 Mlb = 160
+Region AB BDT at : MD3NTr30
+Region BA BDT at : MD3NTr50
+total :       279.227  3.54341
+Difference_RegionA   0.109063   0.218405
+Predicted_RegionA    1.17627   0.111095
+RegionA              1.0606  0.183272
+RegionB              39.0457  1.38154
+RegionC              6.99294  0.604725
+RegionD              232.128  3.20122
+Hscore = 0.5 Wscore = 0.6 Mlb = 160
+Region AB BDT at : MD3NTr30
+Region BA BDT at : MD3NTr50
+total :       6.67907  0.0747201
+Difference_RegionA   -0.189867   0.0467774
+Predicted_RegionA    2.91771   0.162477
+RegionA              3.60152  0.0549729
+RegionB              1.7298  0.0378875
+RegionC              0.846112  0.0268066
+RegionD              0.501629  0.0201745
+Hscore = 0.6 Wscore = 0.6 Mlb = 200
+Region AB BDT at : MD3NTr20
+Region BA BDT at : MD2NTr30
+total :       230.76  3.22309
+Difference_RegionA   0.115555   0.233676
+Predicted_RegionA    1.0547   0.103554
+RegionA              0.945451  0.174942
+RegionB              31.9841  1.26861
+RegionC              6.31537  0.559069
+RegionD              191.515  2.90445
+Hscore = 0.6 Wscore = 0.6 Mlb = 200
+Region AB BDT at : MD3NTr20
+Region BA BDT at : MD2NTr30
+total :       6.32562  0.0728693
+Difference_RegionA   -0.192261   0.048413
+Predicted_RegionA    2.76918   0.160198
+RegionA              3.42832  0.0537409
+RegionB              1.6385  0.0369184
+RegionC              0.790859  0.0259377
+RegionD              0.467944  0.01965
+Hscore = 0.5 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr75
+total :       217.128  3.15301
+Difference_RegionA   -0.0864899   0.187525
+Predicted_RegionA    1.07059   0.113472
+RegionA              1.17195  0.206029
+RegionB              30.2431  1.24194
+RegionC              6.34937  0.612297
+RegionD              179.364  2.82519
+Hscore = 0.5 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr75
+total :       6.26898  0.072352
+Difference_RegionA   -0.219762   0.0473017
+Predicted_RegionA    2.77226   0.162574
+RegionA              3.55309  0.0546202
+RegionB              1.44523  0.0344888
+RegionC              0.835232  0.0266683
+RegionD              0.435422  0.0187286
+Hscore = 0.5 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       201.595  3.0463
+Difference_RegionA   0.00201389   0.197454
+Predicted_RegionA    1.05654   0.0986624
+RegionA              1.05442  0.182968
+RegionB              27.9363  1.20106
+RegionC              6.28992  0.510966
+RegionD              166.314  2.74642
+Hscore = 0.5 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       6.16326  0.0717937
+Difference_RegionA   -0.209795   0.0497954
+Predicted_RegionA    2.86601   0.175263
+RegionA              3.62692  0.0551683
+RegionB              1.30243  0.0328202
+RegionC              0.848374  0.0268529
+RegionD              0.385537  0.0176791
+Hscore = 0.6 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr40
+total :       193.328  2.99323
+Difference_RegionA   0.0356362   0.208823
+Predicted_RegionA    1.18423   0.116236
+RegionA              1.14348  0.201408
+RegionB              26.3832  1.17415
+RegionC              7.12243  0.611403
+RegionD              158.679  2.67701
+Hscore = 0.6 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr40
+total :       6.0852  0.0713478
+Difference_RegionA   -0.235189   0.0486694
+Predicted_RegionA    2.77425   0.171414
+RegionA              3.62736  0.0552286
+RegionB              1.23491  0.0318879
+RegionC              0.846234  0.0268105
+RegionD              0.376688  0.0174549
+Hscore = 0.5 Wscore = 0.6 Mlb = 160
+Region AB BDT at : MD3NTr30
+Region BA BDT at : MD3NTr50
+total :       279.227  3.54341
+Difference_RegionA   0.109063   0.218405
+Predicted_RegionA    1.17627   0.111095
+RegionA              1.0606  0.183272
+RegionB              39.0457  1.38154
+RegionC              6.99294  0.604725
+RegionD              232.128  3.20122
+Hscore = 0.5 Wscore = 0.6 Mlb = 160
+Region AB BDT at : MD3NTr30
+Region BA BDT at : MD3NTr50
+total :       6.67907  0.0747201
+Difference_RegionA   -0.189867   0.0467774
+Predicted_RegionA    2.91771   0.162477
+RegionA              3.60152  0.0549729
+RegionB              1.7298  0.0378875
+RegionC              0.846112  0.0268066
+RegionD              0.501629  0.0201745
+Hscore = 0.6 Wscore = 0.6 Mlb = 200
+Region AB BDT at : MD3NTr20
+Region BA BDT at : MD2NTr30
+total :       230.76  3.22309
+Difference_RegionA   0.115555   0.233676
+Predicted_RegionA    1.0547   0.103554
+RegionA              0.945451  0.174942
+RegionB              31.9841  1.26861
+RegionC              6.31537  0.559069
+RegionD              191.515  2.90445
+Hscore = 0.6 Wscore = 0.6 Mlb = 200
+Region AB BDT at : MD3NTr20
+Region BA BDT at : MD2NTr30
+total :       6.32562  0.0728693
+Difference_RegionA   -0.192261   0.048413
+Predicted_RegionA    2.76918   0.160198
+RegionA              3.42832  0.0537409
+RegionB              1.6385  0.0369184
+RegionC              0.790859  0.0259377
+RegionD              0.467944  0.01965
+Hscore = 0.5 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr75
+total :       217.128  3.15301
+Difference_RegionA   -0.0864899   0.187525
+Predicted_RegionA    1.07059   0.113472
+RegionA              1.17195  0.206029
+RegionB              30.2431  1.24194
+RegionC              6.34937  0.612297
+RegionD              179.364  2.82519
+Hscore = 0.5 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr75
+total :       6.26898  0.072352
+Difference_RegionA   -0.219762   0.0473017
+Predicted_RegionA    2.77226   0.162574
+RegionA              3.55309  0.0546202
+RegionB              1.44523  0.0344888
+RegionC              0.835232  0.0266683
+RegionD              0.435422  0.0187286
+Hscore = 0.5 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       201.595  3.0463
+Difference_RegionA   0.00201389   0.197454
+Predicted_RegionA    1.05654   0.0986624
+RegionA              1.05442  0.182968
+RegionB              27.9363  1.20106
+RegionC              6.28992  0.510966
+RegionD              166.314  2.74642
+Hscore = 0.5 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       6.16326  0.0717937
+Difference_RegionA   -0.209795   0.0497954
+Predicted_RegionA    2.86601   0.175263
+RegionA              3.62692  0.0551683
+RegionB              1.30243  0.0328202
+RegionC              0.848374  0.0268529
+RegionD              0.385537  0.0176791
+Hscore = 0.6 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr40
+total :       193.328  2.99323
+Difference_RegionA   0.0356362   0.208823
+Predicted_RegionA    1.18423   0.116236
+RegionA              1.14348  0.201408
+RegionB              26.3832  1.17415
+RegionC              7.12243  0.611403
+RegionD              158.679  2.67701
+Hscore = 0.6 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr40
+total :       6.0852  0.0713478
+Difference_RegionA   -0.235189   0.0486694
+Predicted_RegionA    2.77425   0.171414
+RegionA              3.62736  0.0552286
+RegionB              1.23491  0.0318879
+RegionC              0.846234  0.0268105
+RegionD              0.376688  0.0174549
+Hscore = 0.5 Wscore = 0.6 Mlb = 160
+Region AB BDT at : MD3NTr30
+Region BA BDT at : MD3NTr50
+total :       279.227  3.54341
+Difference_RegionA   0.109063   0.218405
+Predicted_RegionA    1.17627   0.111095
+RegionA              1.0606  0.183272
+RegionB              39.0457  1.38154
+RegionC              6.99294  0.604725
+RegionD              232.128  3.20122
+Hscore = 0.5 Wscore = 0.6 Mlb = 160
+Region AB BDT at : MD3NTr30
+Region BA BDT at : MD3NTr50
+total :       6.67907  0.0747201
+Difference_RegionA   -0.189867   0.0467774
+Predicted_RegionA    2.91771   0.162477
+RegionA              3.60152  0.0549729
+RegionB              1.7298  0.0378875
+RegionC              0.846112  0.0268066
+RegionD              0.501629  0.0201745
+Hscore = 0.6 Wscore = 0.6 Mlb = 200
+Region AB BDT at : MD3NTr20
+Region BA BDT at : MD2NTr30
+total :       230.76  3.22309
+Difference_RegionA   0.115555   0.233676
+Predicted_RegionA    1.0547   0.103554
+RegionA              0.945451  0.174942
+RegionB              31.9841  1.26861
+RegionC              6.31537  0.559069
+RegionD              191.515  2.90445
+Hscore = 0.6 Wscore = 0.6 Mlb = 200
+Region AB BDT at : MD3NTr20
+Region BA BDT at : MD2NTr30
+total :       6.32562  0.0728693
+Difference_RegionA   -0.192261   0.048413
+Predicted_RegionA    2.76918   0.160198
+RegionA              3.42832  0.0537409
+RegionB              1.6385  0.0369184
+RegionC              0.790859  0.0259377
+RegionD              0.467944  0.01965
+Hscore = 0.5 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr75
+total :       217.128  3.15301
+Difference_RegionA   -0.0864899   0.187525
+Predicted_RegionA    1.07059   0.113472
+RegionA              1.17195  0.206029
+RegionB              30.2431  1.24194
+RegionC              6.34937  0.612297
+RegionD              179.364  2.82519
+Hscore = 0.5 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr75
+total :       6.26898  0.072352
+Difference_RegionA   -0.219762   0.0473017
+Predicted_RegionA    2.77226   0.162574
+RegionA              3.55309  0.0546202
+RegionB              1.44523  0.0344888
+RegionC              0.835232  0.0266683
+RegionD              0.435422  0.0187286
+Hscore = 0.5 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       201.595  3.0463
+Difference_RegionA   0.00201389   0.197454
+Predicted_RegionA    1.05654   0.0986624
+RegionA              1.05442  0.182968
+RegionB              27.9363  1.20106
+RegionC              6.28992  0.510966
+RegionD              166.314  2.74642
+Hscore = 0.5 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       6.16326  0.0717937
+Difference_RegionA   -0.209795   0.0497954
+Predicted_RegionA    2.86601   0.175263
+RegionA              3.62692  0.0551683
+RegionB              1.30243  0.0328202
+RegionC              0.848374  0.0268529
+RegionD              0.385537  0.0176791
+Hscore = 0.6 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr40
+total :       193.328  2.99323
+Difference_RegionA   0.0356362   0.208823
+Predicted_RegionA    1.18423   0.116236
+RegionA              1.14348  0.201408
+RegionB              26.3832  1.17415
+RegionC              7.12243  0.611403
+RegionD              158.679  2.67701
+Hscore = 0.6 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr40
+total :       6.0852  0.0713478
+Difference_RegionA   -0.235189   0.0486694
+Predicted_RegionA    2.77425   0.171414
+RegionA              3.62736  0.0552286
+RegionB              1.23491  0.0318879
+RegionC              0.846234  0.0268105
+RegionD              0.376688  0.0174549
+Hscore = 0.5 Wscore = 0.6 Mlb = 160
+Region AB BDT at : MD3NTr30
+Region BA BDT at : MD3NTr50
+total :       279.227  3.54341
+Difference_RegionA   0.109063   0.218405
+Predicted_RegionA    1.17627   0.111095
+RegionA              1.0606  0.183272
+RegionB              39.0457  1.38154
+RegionC              6.99294  0.604725
+RegionD              232.128  3.20122
+Hscore = 0.5 Wscore = 0.6 Mlb = 160
+Region AB BDT at : MD3NTr30
+Region BA BDT at : MD3NTr50
+total :       6.67907  0.0747201
+Difference_RegionA   -0.189867   0.0467774
+Predicted_RegionA    2.91771   0.162477
+RegionA              3.60152  0.0549729
+RegionB              1.7298  0.0378875
+RegionC              0.846112  0.0268066
+RegionD              0.501629  0.0201745
+Hscore = 0.6 Wscore = 0.6 Mlb = 200
+Region AB BDT at : MD3NTr20
+Region BA BDT at : MD2NTr30
+total :       230.76  3.22309
+Difference_RegionA   0.115555   0.233676
+Predicted_RegionA    1.0547   0.103554
+RegionA              0.945451  0.174942
+RegionB              31.9841  1.26861
+RegionC              6.31537  0.559069
+RegionD              191.515  2.90445
+Hscore = 0.6 Wscore = 0.6 Mlb = 200
+Region AB BDT at : MD3NTr20
+Region BA BDT at : MD2NTr30
+total :       6.32562  0.0728693
+Difference_RegionA   -0.192261   0.048413
+Predicted_RegionA    2.76918   0.160198
+RegionA              3.42832  0.0537409
+RegionB              1.6385  0.0369184
+RegionC              0.790859  0.0259377
+RegionD              0.467944  0.01965
+Hscore = 0.5 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr75
+total :       217.128  3.15301
+Difference_RegionA   -0.0864899   0.187525
+Predicted_RegionA    1.07059   0.113472
+RegionA              1.17195  0.206029
+RegionB              30.2431  1.24194
+RegionC              6.34937  0.612297
+RegionD              179.364  2.82519
+Hscore = 0.5 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr75
+total :       6.26898  0.072352
+Difference_RegionA   -0.219762   0.0473017
+Predicted_RegionA    2.77226   0.162574
+RegionA              3.55309  0.0546202
+RegionB              1.44523  0.0344888
+RegionC              0.835232  0.0266683
+RegionD              0.435422  0.0187286
+Hscore = 0.5 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       201.595  3.0463
+Difference_RegionA   0.00201389   0.197454
+Predicted_RegionA    1.05654   0.0986624
+RegionA              1.05442  0.182968
+RegionB              27.9363  1.20106
+RegionC              6.28992  0.510966
+RegionD              166.314  2.74642
+Hscore = 0.5 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       6.16326  0.0717937
+Difference_RegionA   -0.209795   0.0497954
+Predicted_RegionA    2.86601   0.175263
+RegionA              3.62692  0.0551683
+RegionB              1.30243  0.0328202
+RegionC              0.848374  0.0268529
+RegionD              0.385537  0.0176791
+Hscore = 0.6 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr40
+total :       193.328  2.99323
+Difference_RegionA   0.0356362   0.208823
+Predicted_RegionA    1.18423   0.116236
+RegionA              1.14348  0.201408
+RegionB              26.3832  1.17415
+RegionC              7.12243  0.611403
+RegionD              158.679  2.67701
+Hscore = 0.6 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr40
+total :       6.0852  0.0713478
+Difference_RegionA   -0.235189   0.0486694
+Predicted_RegionA    2.77425   0.171414
+RegionA              3.62736  0.0552286
+RegionB              1.23491  0.0318879
+RegionC              0.846234  0.0268105
+RegionD              0.376688  0.0174549
+Hscore = 0.5 Wscore = 0.6 Mlb = 160
+Region AB BDT at : MD3NTr30
+Region BA BDT at : MD3NTr50
+total :       279.227  3.54341
+Difference_RegionA   0.109063   0.218405
+Predicted_RegionA    1.17627   0.111095
+RegionA              1.0606  0.183272
+RegionB              39.0457  1.38154
+RegionC              6.99294  0.604725
+RegionD              232.128  3.20122
+Hscore = 0.5 Wscore = 0.6 Mlb = 160
+Region AB BDT at : MD3NTr30
+Region BA BDT at : MD3NTr50
+total :       6.67907  0.0747201
+Difference_RegionA   -0.189867   0.0467774
+Predicted_RegionA    2.91771   0.162477
+RegionA              3.60152  0.0549729
+RegionB              1.7298  0.0378875
+RegionC              0.846112  0.0268066
+RegionD              0.501629  0.0201745
+Hscore = 0.6 Wscore = 0.6 Mlb = 200
+Region AB BDT at : MD3NTr20
+Region BA BDT at : MD2NTr30
+total :       230.76  3.22309
+Difference_RegionA   0.115555   0.233676
+Predicted_RegionA    1.0547   0.103554
+RegionA              0.945451  0.174942
+RegionB              31.9841  1.26861
+RegionC              6.31537  0.559069
+RegionD              191.515  2.90445
+Hscore = 0.6 Wscore = 0.6 Mlb = 200
+Region AB BDT at : MD3NTr20
+Region BA BDT at : MD2NTr30
+total :       6.32562  0.0728693
+Difference_RegionA   -0.192261   0.048413
+Predicted_RegionA    2.76918   0.160198
+RegionA              3.42832  0.0537409
+RegionB              1.6385  0.0369184
+RegionC              0.790859  0.0259377
+RegionD              0.467944  0.01965
+Hscore = 0.5 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr75
+total :       217.128  3.15301
+Difference_RegionA   -0.0864899   0.187525
+Predicted_RegionA    1.07059   0.113472
+RegionA              1.17195  0.206029
+RegionB              30.2431  1.24194
+RegionC              6.34937  0.612297
+RegionD              179.364  2.82519
+Hscore = 0.5 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr40
+Region BA BDT at : MD3NTr75
+total :       6.26898  0.072352
+Difference_RegionA   -0.219762   0.0473017
+Predicted_RegionA    2.77226   0.162574
+RegionA              3.55309  0.0546202
+RegionB              1.44523  0.0344888
+RegionC              0.835232  0.0266683
+RegionD              0.435422  0.0187286
+Hscore = 0.5 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       201.595  3.0463
+Difference_RegionA   0.00201389   0.197454
+Predicted_RegionA    1.05654   0.0986624
+RegionA              1.05442  0.182968
+RegionB              27.9363  1.20106
+RegionC              6.28992  0.510966
+RegionD              166.314  2.74642
+Hscore = 0.5 Wscore = 0.7 Mlb = 180
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr75
+total :       6.16326  0.0717937
+Difference_RegionA   -0.209795   0.0497954
+Predicted_RegionA    2.86601   0.175263
+RegionA              3.62692  0.0551683
+RegionB              1.30243  0.0328202
+RegionC              0.848374  0.0268529
+RegionD              0.385537  0.0176791
+Hscore = 0.6 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr40
+total :       193.328  2.99323
+Difference_RegionA   0.0356362   0.208823
+Predicted_RegionA    1.18423   0.116236
+RegionA              1.14348  0.201408
+RegionB              26.3832  1.17415
+RegionC              7.12243  0.611403
+RegionD              158.679  2.67701
+Hscore = 0.6 Wscore = 0.7 Mlb = 150
+Region AB BDT at : MD3NTr75
+Region BA BDT at : MD3NTr40
+total :       6.0852  0.0713478
+Difference_RegionA   -0.235189   0.0486694
+Predicted_RegionA    2.77425   0.171414
+RegionA              3.62736  0.0552286
+RegionB              1.23491  0.0318879
+RegionC              0.846234  0.0268105
+RegionD              0.376688  0.0174549

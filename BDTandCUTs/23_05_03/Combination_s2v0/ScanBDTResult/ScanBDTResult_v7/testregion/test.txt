@@ -1,0 +1,168 @@
+SampleName allbkg
+                         : Booking "BDT" of type "BDT" from ./dataset_AB/weights/TMVAClassification_BDT.weights.xml.
+                         : Reading weight file: ./dataset_AB/weights/TMVAClassification_BDT.weights.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDT" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from ./dataset_BA/weights/TMVAClassification_BDT.weights.xml.
+                         : Reading weight file: ./dataset_BA/weights/TMVAClassification_BDT.weights.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDT" of type: "BDT"
+total :       176.375  2.77176
+RegionA     0.643067  0.154181
+RegionB     28.6457  1.12731
+RegionC     3.64978  0.362779
+RegionD     143.436  2.50129
+pass BDT :    4.29285  0.394184
+fail BDT :    172.082  2.74359
+pass VBS :    29.2887  1.13781
+fail VBS :    147.086  2.52746
+./Calculate.exe   0.643067   0.154181   28.6457  1.12731   3.64978   0.362779   143.436  2.50129
+SampleName signal
+                         : Booking "BDT" of type "BDT" from ./dataset_AB/weights/TMVAClassification_BDT.weights.xml.
+                         : Reading weight file: ./dataset_AB/weights/TMVAClassification_BDT.weights.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDT" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from ./dataset_BA/weights/TMVAClassification_BDT.weights.xml.
+                         : Reading weight file: ./dataset_BA/weights/TMVAClassification_BDT.weights.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDT" of type: "BDT"
+total :       6.65275  0.0751121
+RegionA     4.50445  0.0620378
+RegionB     0.955701  0.0279999
+RegionC     0.950421  0.0284847
+RegionD     0.242173  0.0140629
+pass BDT :    5.45488  0.0682647
+fail BDT :    1.19787  0.031333
+pass VBS :    5.46016  0.0680638
+fail VBS :    1.19259  0.031767
+./Calculate.exe   4.50445   0.0620378   0.955701  0.0279999   0.950421   0.0284847   0.242173  0.0140629
+SampleName tt1l
+                         : Booking "BDT" of type "BDT" from ./dataset_AB/weights/TMVAClassification_BDT.weights.xml.
+                         : Reading weight file: ./dataset_AB/weights/TMVAClassification_BDT.weights.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDT" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from ./dataset_BA/weights/TMVAClassification_BDT.weights.xml.
+                         : Reading weight file: ./dataset_BA/weights/TMVAClassification_BDT.weights.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDT" of type: "BDT"
+total :       143.95  2.6142
+RegionA     0.377807  0.134479
+RegionB     24.0269  1.06757
+RegionC     2.01416  0.315335
+RegionD     117.531  2.36153
+pass BDT :    2.39197  0.342813
+fail BDT :    141.558  2.59163
+pass VBS :    24.4048  1.076
+fail VBS :    119.545  2.38249
+./Calculate.exe   0.377807   0.134479   24.0269  1.06757   2.01416   0.315335   117.531  2.36153
+SampleName others
+                         : Booking "BDT" of type "BDT" from ./dataset_AB/weights/TMVAClassification_BDT.weights.xml.
+                         : Reading weight file: ./dataset_AB/weights/TMVAClassification_BDT.weights.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDT" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from ./dataset_BA/weights/TMVAClassification_BDT.weights.xml.
+                         : Reading weight file: ./dataset_BA/weights/TMVAClassification_BDT.weights.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDT" of type: "BDT"
+total :       1.28246  0.134672
+RegionA     0.0230974  0.00437275
+RegionB     0.163153  0.061946
+RegionC     0.326479  0.0864699
+RegionD     0.769729  0.0824802
+pass BDT :    0.349576  0.0865804
+fail BDT :    0.932882  0.103152
+pass VBS :    0.18625  0.0621001
+fail VBS :    1.09621  0.119499
+./Calculate.exe   0.0230974   0.00437275   0.163153  0.061946   0.326479   0.0864699   0.769729  0.0824802
+SampleName ttbar
+                         : Booking "BDT" of type "BDT" from ./dataset_AB/weights/TMVAClassification_BDT.weights.xml.
+                         : Reading weight file: ./dataset_AB/weights/TMVAClassification_BDT.weights.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDT" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from ./dataset_BA/weights/TMVAClassification_BDT.weights.xml.
+                         : Reading weight file: ./dataset_BA/weights/TMVAClassification_BDT.weights.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDT" of type: "BDT"
+total :       158.018  2.71483
+RegionA     0.521178  0.152808
+RegionB     26.2177  1.10905
+RegionC     2.49204  0.342207
+RegionD     128.787  2.44946
+pass BDT :    3.01322  0.374774
+fail BDT :    155.005  2.68884
+pass VBS :    26.7389  1.11953
+fail VBS :    131.279  2.47325
+./Calculate.exe   0.521178   0.152808   26.2177  1.10905   2.49204   0.342207   128.787  2.44946
+SampleName tt2l
+                         : Booking "BDT" of type "BDT" from ./dataset_AB/weights/TMVAClassification_BDT.weights.xml.
+                         : Reading weight file: ./dataset_AB/weights/TMVAClassification_BDT.weights.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDT" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from ./dataset_BA/weights/TMVAClassification_BDT.weights.xml.
+                         : Reading weight file: ./dataset_BA/weights/TMVAClassification_BDT.weights.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDT" of type: "BDT"
+total :       14.0679  0.732302
+RegionA     0.143371  0.0725662
+RegionB     2.19073  0.300489
+RegionC     0.477884  0.132927
+RegionD     11.2559  0.650413
+pass BDT :    0.621255  0.151444
+fail BDT :    13.4467  0.716471
+pass VBS :    2.3341  0.309127
+fail VBS :    11.7338  0.663858
+./Calculate.exe   0.143371   0.0725662   2.19073  0.300489   0.477884   0.132927   11.2559  0.650413
+SampleName Wjets
+                         : Booking "BDT" of type "BDT" from ./dataset_AB/weights/TMVAClassification_BDT.weights.xml.
+                         : Reading weight file: ./dataset_AB/weights/TMVAClassification_BDT.weights.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDT" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from ./dataset_BA/weights/TMVAClassification_BDT.weights.xml.
+                         : Reading weight file: ./dataset_BA/weights/TMVAClassification_BDT.weights.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDT" of type: "BDT"
+total :       7.57916  0.51285
+RegionA     0.0229068  0.0146202
+RegionB     0.913914  0.180884
+RegionC     0.382894  0.0781467
+RegionD     6.25944  0.473261
+pass BDT :    0.4058  0.0795026
+fail BDT :    7.17336  0.50665
+pass VBS :    0.936821  0.181473
+fail VBS :    6.64234  0.479669
+./Calculate.exe   0.0229068   0.0146202   0.913914  0.180884   0.382894   0.0781467   6.25944  0.473261
+SampleName TTX
+                         : Booking "BDT" of type "BDT" from ./dataset_AB/weights/TMVAClassification_BDT.weights.xml.
+                         : Reading weight file: ./dataset_AB/weights/TMVAClassification_BDT.weights.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDT" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from ./dataset_BA/weights/TMVAClassification_BDT.weights.xml.
+                         : Reading weight file: ./dataset_BA/weights/TMVAClassification_BDT.weights.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDT" of type: "BDT"
+total :       9.49529  0.176579
+RegionA     0.0758848  0.0137356
+RegionB     1.35091  0.0654335
+RegionC     0.448368  0.0303225
+RegionD     7.62012  0.160594
+pass BDT :    0.524253  0.0332884
+fail BDT :    8.97103  0.173413
+pass VBS :    1.4268  0.0668596
+fail VBS :    8.06849  0.163432
+./Calculate.exe   0.0758848   0.0137356   1.35091  0.0654335   0.448368   0.0303225   7.62012  0.160594
