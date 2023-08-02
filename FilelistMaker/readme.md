@@ -8,3 +8,8 @@ if u use the Analysis packages written by me, just simply copy and paste the con
 
 after you run the test.sh, it will skip the null files. And the filelist without these null files are listed in ./List/*.list
 it's recommended to use this list instead of ./filelist/*.list
+
+#Instructions
+
+in each directory run run.sh
+
