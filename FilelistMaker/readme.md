@@ -11,5 +11,13 @@ it's recommended to use this list instead of ./filelist/*.list
 
 #### Instructions
 
-in each directory run run.sh and test.sh
+- in each directory run run.sh and test.sh
+
+- use the filelist directory for data and signal and the List directory for the background
+
+- run signal local on uaf (no condor)
+
+- move files into condormaker/Jona ..../initialfiles
+
+- copy the signal output to AnalysisFile/allboosted/List_sig
 
