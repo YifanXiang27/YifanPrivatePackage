@@ -1,0 +1,4 @@
+VBSOSWWH          0.00243354
+VBSWWH            0.00151508
+VBSWZH            0.00155167
+VBSZZH            0.00106719
