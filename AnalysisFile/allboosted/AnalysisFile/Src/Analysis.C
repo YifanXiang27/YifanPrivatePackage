@@ -1454,6 +1454,8 @@ void Analysis::Loop(const char* TypeName, const char* yearName){
         int nvbsjets = 0;
         TLorentzVector TRleadingvbsjet;
         TLorentzVector TRsubleadvbsjet;
+        double maxdetajj = -999;
+        int idx_vbsjets[30] = {0};
         for(int jj = 0 ; jj < RnJet ; jj ++){
             TLorentzVector Tvbsjet;
             Tvbsjet.SetPtEtaPhiM(RJet_pt[jj],RJet_eta[jj],RJet_phi[jj],RJet_mass[jj]);
@@ -1471,56 +1473,26 @@ void Analysis::Loop(const char* TypeName, const char* yearName){
                 if(RJet_puId[jj] == 0) continue;
             }
             
+            idx_vbsjets[nvbsjets] = jj;
             nvbsjets++;
-            if(Tvbsjet.Eta() > 0 && maxvbfjetp < Tvbsjet.P()){
-                maxvbfjetp = Tvbsjet.P();
-                Nvbfjet1 = jj;
-            }else if(Tvbsjet.Eta() < 0 && secvbfjetp < Tvbsjet.P()){
-                secvbfjetp = Tvbsjet.P();
-                Nvbfjet2 = jj;
-            }
         }
         if(nvbsjets < 2) continue;
-        bool ifcalvbsp = false;
-        if(Nvbfjet1 == -999 || Nvbfjet2 == -999) ifcalvbsp = true;
-        if(!ifcalvbsp){
-            TRleadingvbsjet.SetPtEtaPhiM(RJet_pt[Nvbfjet1],RJet_eta[Nvbfjet1],RJet_phi[Nvbfjet1],RJet_mass[Nvbfjet1]);
-            TRsubleadvbsjet.SetPtEtaPhiM(RJet_pt[Nvbfjet2],RJet_eta[Nvbfjet2],RJet_phi[Nvbfjet2],RJet_mass[Nvbfjet2]);
-            if(TRleadingvbsjet.P() < TRsubleadvbsjet.P()){
-                TLorentzVector Ttrans;
-                Ttrans          = TRleadingvbsjet;
-                TRleadingvbsjet = TRsubleadvbsjet;
-                TRsubleadvbsjet = Ttrans;
-            }
-        }
-        maxvbfjetp = 0;
-        secvbfjetp = 0;
-        Nvbfjet1 = -999;
-        Nvbfjet2 = -999;
-        if(ifcalvbsp){
-            for(int jj = 0 ; jj < RnJet ; jj ++){
-                TLorentzVector Tvbsjet;
-                Tvbsjet.SetPtEtaPhiM(RJet_pt[jj],RJet_eta[jj],RJet_phi[jj],RJet_mass[jj]);
-                if(RJet_pt[jj] < 30) continue;
-                if(Tvbsjet.DeltaR(TRlepton1) < 0.4) continue;
-                if(Tvbsjet.DeltaR(TTHiggs) < 0.8) continue;
-                if(Tvbsjet.DeltaR(TTWjet) < 0.8) continue;
-                if(maxvbfjetp < Tvbsjet.P()){
-                    secvbfjetp = maxvbfjetp;
-                    maxvbfjetp = Tvbsjet.P();
-                    Nvbfjet2 = Nvbfjet1;
-                    Nvbfjet1 = jj;
-                }else if(secvbfjetp < Tvbsjet.P()){
-                    secvbfjetp = Tvbsjet.P();
-                    Nvbfjet2 = jj;
-                }
-            }
-            TRleadingvbsjet.SetPtEtaPhiM(RJet_pt[Nvbfjet1],RJet_eta[Nvbfjet1],RJet_phi[Nvbfjet1],RJet_mass[Nvbfjet1]);
-            TRsubleadvbsjet.SetPtEtaPhiM(RJet_pt[Nvbfjet2],RJet_eta[Nvbfjet2],RJet_phi[Nvbfjet2],RJet_mass[Nvbfjet2]);
-        }
         weighted_number_vbsjet += weight;
         weighted_error_vbsjet += (weight*weight);
 
+        for(int jj = 0 ; jj < nvbsjets ; jj ++){
+            TLorentzVector Tvbsjet1;
+            Tvbsjet1.SetPtEtaPhiM(RJet_pt[jj],RJet_eta[jj],RJet_phi[jj],RJet_mass[jj]);
+            for(int kk = 0 ; kk < nvbsjets ; kk ++){
+                TLorentzVector Tvbsjet2;
+                Tvbsjet2.SetPtEtaPhiM(RJet_pt[kk],RJet_eta[kk],RJet_phi[kk],RJet_mass[kk]);
+                if(fabs(Tvbsjet1.Eta() - Tvbsjet2.Eta()) > maxdetajj){
+                    Nvbfjet1 = jj;
+                    Nvbfjet2 = kk;
+                    maxdetajj = fabs(Tvbsjet1.Eta() - Tvbsjet2.Eta());
+                }
+            }
+        }
 
 
 
