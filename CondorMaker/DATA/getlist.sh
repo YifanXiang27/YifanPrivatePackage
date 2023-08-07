@@ -45,12 +45,13 @@ done
 
 #sh getpreskimcheck.sh $Date
 
-# don't understand
+#don't understand
 echo "testing part2*************************"
 #cp preskimfilelistmaker/initialfiles/* preskimfilelistmaker/transfer_uaf
 #cp preskimfilelistmaker/initialfiles/Compile.sh preskimfilelistmaker/transfer_uaf
-# don't understand this part
 #sed -e "s/DATE/${Date}/g" ./preskimfilelistmaker/initialfiles/test.sh > ./preskimfilelistmaker/transfer_uaf/test.sh
+
+
 
 echo "#########################"
 echo "#     Part 2            #"
@@ -79,5 +80,5 @@ echo "in hadoop, build the folder : "
 echo "results_$Date"
 
 
-#rm localrun.sh
+rm localrun.sh
 
