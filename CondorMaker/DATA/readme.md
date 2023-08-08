@@ -5,6 +5,6 @@ mkdir filelist
 mkdir condorsubmit/outputfiles
 mkdir ./preskimfilelistmaker              
 mkdir ./preskimfilelistmaker/transfer_uaf/ 
-cp ../../FileList/bkg/filelist/Filelist_*list initialfiles
+cp ../../FileList/data/filelist/Filelist_*list initialfiles
 sh getlist.sh
 ```
