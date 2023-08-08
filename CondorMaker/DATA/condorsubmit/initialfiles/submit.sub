@@ -7,7 +7,7 @@
     error                   = /ceph/cms/store/user/legianni/Condor_Preselection/error_DATE/ERR_TAG_DATE.$(ProcId).err
     log                     = /ceph/cms/store/user/legianni/Condor_Preselection/log_DATE/LOG_TAG_DATE.$(ProcId).log
 
-    x509userproxy           = /tmp/x509up_u31705
+    x509userproxy           = /tmp/x509up_u31741
     RequestMemory           = 2048
     RequestCpus             = 1
 
