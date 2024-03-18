@@ -1,28 +1,48 @@
+Simple use:
+AnalysisFile_Data/MC are supposed to submit to condor. use scripts generated in previous files for submitting these jobs.
+go to scripts
+###########
+sh cpAnalysisFile.sh
+cd scripts{tag}
+sh run.sh
+###########
+
+AnalysisFile_sig are supposed to run on uaf.
+read the readme.txt in the file.
+
+
+
+
+######Previous readme(can ignor it)*###############
+
+
+
+
 # this package is aiming at pre-selection and branching reduction for root files( to get the small root files)
 
 ### all the files here should be able to easily run on condor
 
 ### input files (you should be careful) : 
-./allboosted/AnalysisFile/
-./allboosted/List_sig/ (signal list. You can copy them from the scanning of signal sample in FilelistMaker)
-./allboosted/run_sig.sh (signal run command)
-./allboosted/cpcommand.sh (talk about it later)
-./allboosted/cpAnalysisFile.sh (talk about it later)
+./{AnalysisFiles}/AnalysisFile/
+./{AnalysisFiles}/List_sig/ (signal list. You can copy them from the scanning of signal sample in FilelistMaker)
+./{AnalysisFiles}/run_sig.sh (signal run command)
+./{AnalysisFiles}/cpcommand.sh (talk about it later)
+./{AnalysisFiles}/cpAnalysisFile.sh (talk about it later)
 feel free to delete/change/move other files
 
 ### briefly talking about this packae : 
 
-The core of this package if allboosted/AnalysisFile/
+The core of this package if {AnalysisFiles}/AnalysisFile/
 this directory has all the code needed for the preselection.
 
-All the .h file(in ./allboosted/AnalysisFile/Include) should have a .C file (in ./allboosted/AnalysisFile/Src)
+All the .h file(in ./{AnalysisFiles}/AnalysisFile/Include) should have a .C file (in ./{AnalysisFiles}/AnalysisFile/Src)
 The main part of the code is in Analysis.h and Analysis.C
 makeHistst aiming at saving the root trees, plots
 Analysis.h aiming at reading the initial rootfiles
-Analysis.C aiming at doing selections. There are lepton id selections defined in Electron/MuonSelection.h/C in ./allboosted/AnalysisFile/Include and ./allboosted/AnalysisFile/Src
+Analysis.C aiming at doing selections. There are lepton id selections defined in Electron/MuonSelection.h/C in ./{AnalysisFiles}/AnalysisFile/Include and ./{AnalysisFiles}/AnalysisFile/Src
 
 
-after you finish the coding in ./allboosted/AnalysisFile/ : 
+after you finish the coding in ./{AnalysisFiles}/AnalysisFile/ : 
 sh cpcommand.sh;
 cd Analysis_sig
 {setup environment}

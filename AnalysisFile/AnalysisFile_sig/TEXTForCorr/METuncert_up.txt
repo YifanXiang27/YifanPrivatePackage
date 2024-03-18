@@ -1,0 +1,7 @@
+
+double MET_uncert_dx = RMET_pt * TMath::Cos(RMET_phi);
+MET_uncert_dx += RMET_MetUnclustEnUpDeltaX;
+double MET_uncert_dy = RMET_pt * TMath::Sin(RMET_phi);
+MET_uncert_dy += RMET_MetUnclustEnUpDeltaY;
+
+RMET_pt = TMath::Sqrt(MET_uncert_dx * MET_uncert_dx + MET_uncert_dy * MET_uncert_dy);
