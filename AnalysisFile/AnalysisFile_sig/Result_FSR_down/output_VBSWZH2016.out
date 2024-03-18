@@ -1,0 +1,63 @@
+setting File type to List/Filelist_VBSWZH2016.list
+setting File list to VBSWZH2016
+setting File version to VBSWZH2016
+*********************************
+*********Analysis Begin**********
+*********************************
+
+start loop file 1
+opening /ceph/cms/store/user/jguiang/VBSVVHSignalGeneration/v2/VBSWZH_VBSCuts_TuneCP5_RunIISummer20UL16-106X_privateMC_NANOGEN_v2//merged_tthfix.root
+CHECK    ROOTNAME   /ceph/cms/store/user/jguiang/VBSVVHSignalGeneration/v2/VBSWZH_VBSCuts_TuneCP5_RunIISummer20UL16-106X_privateMC_NANOGEN_v2//merged_tthfix.root   1   VBSWZH2016
+CHECK_isData   0
+VBSWZH2016   18446744073709551615
+setting year to : 2016   1   0   0
+0
+finishing reading trees
+start loopoing MC  : 100000 events 
+weight : 0.00027518
+Input Year : VBSWZH2016
+end loop file
+
+event_number_raw                                 : 100000
+weighted_number_total                            : 26.1416
+weighted_number_flag                            : 25.9935
+weighted_number_beforetrigger                            : 25.9935
+weighted_number_leptonptcut0                     : 3.12652
+weighted_number_leptonptcut1                     : 3.9396
+weighted_number_leptonptcut2                     : 3.63711
+weighted_number_fatbtag_t                        : 1.93858
+weighted_number_WZjet                            : 0.578355
+weighted_number_Wjet                             : 0
+weighted_number_Zjet                             : 0
+weighted_number_vbsjet                           : 0.275179
+weighted_number_ST                               : 0.250459
+weighted_number_SameWZ                           : 0.248554
+weighted_number_pe                               : 0.0341124
+weighted_number_me                               : 0.0644348
+weighted_number_pm                               : 0.0503905
+weighted_number_mm                               : 0.101521
+weighted_error_total                             : 0.103072
+weighted_error_flag                             : 0.10279
+weighted_error_beforetrigger                             : 0.10279
+weighted_error_leptonptcut0                      : 0.034023
+weighted_error_leptonptcut1                      : 0.0396732
+weighted_error_leptonptcut2                      : 0.0366308
+weighted_error_fatbtag_t                         : 0.0270992
+weighted_error_WZjet                              : 0.0144836
+weighted_error_Wjet                             : 0
+weighted_error_Zjet                              : 0
+weighted_error_vbsjet                            : 0.0100237
+weighted_error_ST                                : 0.00948917
+weighted_error_SameWZ                            : 0.00946377
+weighted_error_pe                                : 0.00342696
+weighted_error_me                                : 0.00474437
+weighted_error_pm                                : 0.00420409
+weighted_error_mm                                : 0.00617388
+
+Running 1root file finished
+root file save
+Running histogram saved
+
+*********************************
+*********Analysis End************
+*********************************
