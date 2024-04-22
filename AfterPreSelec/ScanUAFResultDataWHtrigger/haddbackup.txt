@@ -1,0 +1,47 @@
+hadd Target file: Had_allsig.root
+hadd compression setting for all output: 1
+hadd Source file 1: hadddir/*
+hadd Target file: Had_alldata.root
+hadd compression setting for all output: 1
+hadd Source file 1: hadddir/EGamma_Run2018A2018.root
+hadd Source file 2: hadddir/EGamma_Run2018B2018.root
+hadd Source file 3: hadddir/EGamma_Run2018C2018.root
+hadd Source file 4: hadddir/EGamma_Run2018D2018.root
+hadd Source file 5: hadddir/SingleElectron_Run2016B-ver1_HIPM2016APV.root
+hadd Source file 6: hadddir/SingleElectron_Run2016B-ver2_HIPM2016APV.root
+hadd Source file 7: hadddir/SingleElectron_Run2016C-HIPM2016APV.root
+hadd Source file 8: hadddir/SingleElectron_Run2016D-HIPM2016APV.root
+hadd Source file 9: hadddir/SingleElectron_Run2016E-HIPM2016APV.root
+hadd Source file 10: hadddir/SingleElectron_Run2016F-HIPM2016APV.root
+hadd Source file 11: hadddir/SingleElectron_Run2016F2016.root
+hadd Source file 12: hadddir/SingleElectron_Run2016G2016.root
+hadd Source file 13: hadddir/SingleElectron_Run2016H2016.root
+hadd Source file 14: hadddir/SingleElectron_Run2017B2017.root
+hadd Source file 15: hadddir/SingleElectron_Run2017C2017.root
+hadd Source file 16: hadddir/SingleElectron_Run2017D2017.root
+hadd Source file 17: hadddir/SingleElectron_Run2017E2017.root
+hadd Source file 18: hadddir/SingleElectron_Run2017F2017.root
+hadd Source file 19: hadddir/SingleMuon_Run2016B-ver1_HIPM2016APV.root
+hadd Source file 20: hadddir/SingleMuon_Run2016B-ver2_HIPM2016APV.root
+hadd Source file 21: hadddir/SingleMuon_Run2016C-HIPM2016APV.root
+hadd Source file 22: hadddir/SingleMuon_Run2016D-HIPM2016APV.root
+hadd Source file 23: hadddir/SingleMuon_Run2016E-HIPM2016APV.root
+hadd Source file 24: hadddir/SingleMuon_Run2016F-HIPM2016APV.root
+hadd Source file 25: hadddir/SingleMuon_Run2016F2016.root
+hadd Source file 26: hadddir/SingleMuon_Run2016G2016.root
+hadd Source file 27: hadddir/SingleMuon_Run2016H2016.root
+hadd Source file 28: hadddir/SingleMuon_Run2017B2017.root
+hadd Source file 29: hadddir/SingleMuon_Run2017C2017.root
+hadd Source file 30: hadddir/SingleMuon_Run2017D2017.root
+hadd Source file 31: hadddir/SingleMuon_Run2017E2017.root
+hadd Source file 32: hadddir/SingleMuon_Run2017F2017.root
+hadd Source file 33: hadddir/SingleMuon_Run2017G2017.root
+hadd Source file 34: hadddir/SingleMuon_Run2017H2017.root
+hadd Source file 35: hadddir/SingleMuon_Run2018A2018.root
+hadd Source file 36: hadddir/SingleMuon_Run2018B2018.root
+hadd Source file 37: hadddir/SingleMuon_Run2018C2018.root
+hadd Source file 38: hadddir/SingleMuon_Run2018D2018.root
+hadd Target path: Had_alldata.root:/
+hadd Target file: Had_allbkg.root
+hadd compression setting for all output: 1
+hadd Source file 1: hadddir/*
