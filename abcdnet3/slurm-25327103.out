@@ -1,0 +1,60 @@
+----------------- Neural Network -----------------
+NeuralNetwork(
+  (layers): Sequential(
+    (0): Linear(in_features=7, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=64, out_features=64, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=64, out_features=64, bias=True)
+    (5): ReLU()
+    (6): Linear(in_features=64, out_features=1, bias=True)
+    (7): Sigmoid()
+  )
+)
+Loading /blue/p.chang/yxiang/data/VBSVVH1lep/ABCDNet_simpleDisco_VBSVVH1lep_30/models/ABCDNet_simpleDisco_VBSVVH1lep_30_modelNeuralNetwork_nhidden3_hiddensize64_lrConstantLR0.001_discolambda30_epoch500_model.pt
+Globbing /blue/p.chang/yxiang/data/VBSVVH1lep/ABCDNet_simpleDisco_VBSVVH1lep_30/datasets/ABCDNet_simpleDisco_VBSVVH1lep_30_*.pt
+Loading /blue/p.chang/yxiang/data/VBSVVH1lep/ABCDNet_simpleDisco_VBSVVH1lep_30/datasets/ABCDNet_simpleDisco_VBSVVH1lep_30_allbkg.pt
+DisCoDataset: 0.0 sig, 1004.3 bkg
+0.0% complete
+10.0% complete
+20.0% complete
+30.0% complete
+40.0% complete
+50.0% complete
+60.0% complete
+70.0% complete
+80.0% complete
+90.0% complete
+100.0% complete
+Wrote /blue/p.chang/yxiang/data/VBSVVH1lep/ABCDNet_simpleDisco_VBSVVH1lep_30/output/allbkg_abcdnet.root
+Loading /blue/p.chang/yxiang/data/VBSVVH1lep/ABCDNet_simpleDisco_VBSVVH1lep_30/datasets/ABCDNet_simpleDisco_VBSVVH1lep_30_allsig.pt
+DisCoDataset: 6.7 sig, 0.0 bkg
+0.0% complete
+10.0% complete
+20.0% complete
+30.0% complete
+40.0% complete
+50.0% complete
+60.0% complete
+70.0% complete
+80.0% complete
+90.0% complete
+100.0% complete
+Wrote /blue/p.chang/yxiang/data/VBSVVH1lep/ABCDNet_simpleDisco_VBSVVH1lep_30/output/allsig_abcdnet.root
+Loading /blue/p.chang/yxiang/data/VBSVVH1lep/input/data3.root
+0.0% complete
+10.0% complete
+20.0% complete
+30.0% complete
+40.0% complete
+50.0% complete
+60.0% complete
+70.0% complete
+80.0% complete
+90.0% complete
+100.0% complete
+Wrote /blue/p.chang/yxiang/data/VBSVVH1lep/ABCDNet_simpleDisco_VBSVVH1lep_30/output/data3_abcdnet.root
+Avg. inference time: 0.00021429243536372124s
+
+Done.
+

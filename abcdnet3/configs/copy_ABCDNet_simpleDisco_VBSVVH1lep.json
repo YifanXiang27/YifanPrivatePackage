@@ -1,0 +1,69 @@
+{
+    "base_dir": "/blue/p.chang/yxiang/data/VBSVVH1lep",
+    "model": {
+        "name": "NeuralNetwork",
+        "n_hidden_layers": 3,
+        "hidden_size": 64
+    },
+//    "infer": {
+//        "extra_files": [
+//            "/blue/p.chang/jguiang/data/vbsvvh/output_main_qcdfix/Run2/QCDNorm_mediumPresel_qcdnorm/data.root"
+//        ]
+//    },
+    "ingress": {
+        "input_dir": "/blue/p.chang/yxiang/data/VBSVVH1lep/input",
+        "bkg_files": [
+            "Had_allbkg.root",
+        ],
+        "sig_files": [
+            "Had_allsig.root"
+        ],
+        "ttree_name": "totalEvents", 
+	"selection" : "",
+//        "selection": "(hbbfatjet_xbb > 0.5) & (ld_vqqfatjet_xwqq > 0.3) & (tr_vqqfatjet_xwqq > 0.3)",
+        "features": [
+            "Hbbscore",
+            "Hbbmass",
+            "Hbbtau21",
+            "HbbPt",
+            "Wjetscore",
+            "Wjetmass",
+            "Wjettau21",
+            "WjetPt", 
+            "leptonpt",
+            "Mlbmin", 
+            "MET"
+        ],
+        "transforms": {
+            "Hbbscore": "rescale",
+            "Hbbmass" : "rescale",
+            "Hbbtau21": "rescale",
+            "HbbPt"   : "log",
+            "Wjetscore" : "rescale",
+            "Wjetmass" : "rescale",
+            "Wjettau21" : "rescale",
+            "WjetPt" : "log",
+            "leptonpt" : "log",
+            "Mlbmin" : "rescale",
+            "MET" : "log"
+        },
+        "weights": [
+            "weight"
+        ],
+        "disco_target": "VBSMjj"
+    },
+    "train": {
+        "train_frac": 0.8,
+        "n_batches_train": 10,
+        "n_batches_test": 5,
+        "learning_rate": 0.001,
+        "seed": 1234,
+        "scheduler_name": "ConstantLR",
+        "scheduler_kwargs": {
+            "factor": 1.0
+        },
+        "disco_lambda": 30,
+        "disco_power": 1,
+        "n_epochs": 10
+    }
+}
