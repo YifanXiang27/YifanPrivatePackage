@@ -1,0 +1,60 @@
+{
+    "base_dir": "/blue/p.chang/yxiang/data/VBSVVH1lep",
+    "model": {
+        "name": "NeuralNetwork",
+        "n_hidden_layers": 3,
+        "hidden_size": 64
+    },
+    "ingress": {
+        "input_dir": "/blue/p.chang/yxiang/data/VBSVVH1lep/input",
+        "bkg_files": [
+            "allbkg.root"
+        ],
+        "sig_files": [
+            "allsig.root"
+        ],
+        "ttree_name": "totalEvents", 
+	"selection" : "(Hbbscore > 0.5)",
+        "features": [
+            "Hbbmass",
+            "HbbPt",
+            "Wjetmass",
+            "WjetPt", 
+            "leptonpt",
+            "Mlbminloose",
+            "MET"
+        ],
+        "transforms": {
+            "Hbbmass" : ["rescale",[50,250]],
+            "HbbPt"   : "log",
+            "Wjetmass" : ["rescale",[0,200]],
+            "WjetPt" : "log",
+            "leptonpt" : "log",
+            "Mlbminloose" : ["rescale",[0,1000]],
+            "MET" : "log"
+        },
+        "weights": [
+            "weight"
+        ],
+        "disco_target": "VBSBDTscore"
+    },
+    "train": {
+        "train_frac": 0.8,
+        "n_batches_train": 10,
+        "n_batches_test": 5,
+        "learning_rate": 0.001,
+        "seed": 1234,
+        "scheduler_name": "ConstantLR",
+        "scheduler_kwargs": {
+            "factor": 1.0
+        },
+        "disco_lambda": 20,
+        "disco_power": 1,
+        "n_epochs": 1000
+    },
+    "infer": {
+	"extra_files": [
+	    "/blue/p.chang/yxiang/data/VBSVVH1lep/input/data.root"
+	]
+    }
+}
