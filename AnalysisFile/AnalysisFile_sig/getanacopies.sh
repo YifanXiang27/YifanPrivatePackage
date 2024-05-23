@@ -49,22 +49,29 @@ done
 
 
 sed '/\/\/ADDINGELECCORRECTIONS/a leptonsf = leptonsfRecoup;' ./Src/Analysis_central.C > ./Src/Analysis_elec_Reco_up.C
-sed '/\/\/ADDINGELECCORRECTIONS/a leptonsf = leptonsftrigup;' ./Src/Analysis_central.C > ./Src/Analysis_elec_Trig_up.C
-sed '/\/\/ADDINGELECCORRECTIONS/a leptonsf = leptonsfReco_ttHup;' ./Src/Analysis_central.C > ./Src/Analysis_elec_Reco_ttH_up.C
-sed '/\/\/ADDINGELECCORRECTIONS/a leptonsf = leptonsfttH_tightup;' ./Src/Analysis_central.C > ./Src/Analysis_elec_ttH_tight_up.C
+sed '/\/\/ADDINGELECCORRECTIONS/a leptonsf = leptonsfTrigup;' ./Src/Analysis_central.C > ./Src/Analysis_elec_Trig_up.C
+sed '/\/\/ADDINGELECCORRECTIONS/a leptonsf = leptonsfReco_Looseup;' ./Src/Analysis_central.C > ./Src/Analysis_elec_Reco_Loose_up.C
+sed '/\/\/ADDINGELECCORRECTIONS/a leptonsf = leptonsfIsoup;' ./Src/Analysis_central.C > ./Src/Analysis_elec_Iso_up.C
+sed '/\/\/ADDINGELECCORRECTIONS/a leptonsf = leptonsfEFTup;' ./Src/Analysis_central.C > ./Src/Analysis_elec_EFT_up.C
+
 
 sed '/\/\/ADDINGELECCORRECTIONS/a leptonsf = leptonsfRecodown;' ./Src/Analysis_central.C > ./Src/Analysis_elec_Reco_down.C
-sed '/\/\/ADDINGELECCORRECTIONS/a leptonsf = leptonsftrigdown;' ./Src/Analysis_central.C > ./Src/Analysis_elec_Trig_down.C
-sed '/\/\/ADDINGELECCORRECTIONS/a leptonsf = leptonsfReco_ttHdown;' ./Src/Analysis_central.C > ./Src/Analysis_elec_Reco_ttH_down.C
-sed '/\/\/ADDINGELECCORRECTIONS/a leptonsf = leptonsfttH_tightdown;' ./Src/Analysis_central.C > ./Src/Analysis_elec_ttH_tight_down.C
+sed '/\/\/ADDINGELECCORRECTIONS/a leptonsf = leptonsfTrigdown;' ./Src/Analysis_central.C > ./Src/Analysis_elec_Trig_down.C
+sed '/\/\/ADDINGELECCORRECTIONS/a leptonsf = leptonsfReco_Loosedown;' ./Src/Analysis_central.C > ./Src/Analysis_elec_Reco_Loose_down.C
+sed '/\/\/ADDINGELECCORRECTIONS/a leptonsf = leptonsfIsodown;' ./Src/Analysis_central.C > ./Src/Analysis_elec_Iso_down.C
+sed '/\/\/ADDINGELECCORRECTIONS/a leptonsf = leptonsfEFTdown;' ./Src/Analysis_central.C > ./Src/Analysis_elec_EFT_down.C
 
-sed '/\/\/ADDINGMUONCORRECTIONS/a leptonsf = leptonsfRecoup;' ./Src/Analysis_central.C > ./Src/Analysis_muon_Reco_up.C
-sed '/\/\/ADDINGMUONCORRECTIONS/a leptonsf = leptonsfReco_ttHup;' ./Src/Analysis_central.C > ./Src/Analysis_muon_Reco_ttH_up.C
-sed '/\/\/ADDINGMUONCORRECTIONS/a leptonsf = leptonsfttH_tightup;' ./Src/Analysis_central.C > ./Src/Analysis_muon_ttH_tight_up.C
 
-sed '/\/\/ADDINGMUONCORRECTIONS/a leptonsf = leptonsfRecodown;' ./Src/Analysis_central.C > ./Src/Analysis_muon_Reco_down.C
-sed '/\/\/ADDINGMUONCORRECTIONS/a leptonsf = leptonsfReco_ttHdown;' ./Src/Analysis_central.C > ./Src/Analysis_muon_Reco_ttH_down.C
-sed '/\/\/ADDINGMUONCORRECTIONS/a leptonsf = leptonsfttH_tightdown;' ./Src/Analysis_central.C > ./Src/Analysis_muon_ttH_tight_down.C
+sed '/\/\/ADDINGMUONCORRECTIONS/a leptonsf = leptonsfReco_Looseup;' ./Src/Analysis_central.C > ./Src/Analysis_muon_Reco_Loose_up.C
+sed '/\/\/ADDINGMUONCORRECTIONS/a leptonsf = leptonsfTrigup;' ./Src/Analysis_central.C > ./Src/Analysis_muon_Trig_up.C
+sed '/\/\/ADDINGMUONCORRECTIONS/a leptonsf = leptonsfIsoup;' ./Src/Analysis_central.C > ./Src/Analysis_muon_Iso_up.C
+sed '/\/\/ADDINGMUONCORRECTIONS/a leptonsf = leptonsfEFTup;' ./Src/Analysis_central.C > ./Src/Analysis_muon_EFT_up.C
+
+sed '/\/\/ADDINGMUONCORRECTIONS/a leptonsf = leptonsfReco_Loosedown;' ./Src/Analysis_central.C > ./Src/Analysis_muon_Reco_Loose_down.C
+sed '/\/\/ADDINGMUONCORRECTIONS/a leptonsf = leptonsfTrigdown;' ./Src/Analysis_central.C > ./Src/Analysis_muon_Trig_down.C
+sed '/\/\/ADDINGMUONCORRECTIONS/a leptonsf = leptonsfIsodown;' ./Src/Analysis_central.C > ./Src/Analysis_muon_Iso_down.C
+sed '/\/\/ADDINGMUONCORRECTIONS/a leptonsf = leptonsfEFTdown;' ./Src/Analysis_central.C > ./Src/Analysis_muon_EFT_down.C
+
 
 
 
