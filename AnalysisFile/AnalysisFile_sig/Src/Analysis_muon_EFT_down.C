@@ -774,7 +774,6 @@ void Analysis::Loop(const char* TypeName, const char* yearName){
 
                 leptonsf = leptonsfcentral;
                 //ADDINGELECCORRECTIONS
-leptonsf = leptonsfRecoup;
             }
             else if(abs(Idlep1) == 13){
                 double MuonEta = fabs(TRlepton1.Eta());
@@ -810,6 +809,7 @@ leptonsf = leptonsfRecoup;
 
                 leptonsf = leptonsfcentral;
                 //ADDINGMUONCORRECTIONS
+leptonsf = leptonsfEFTdown;
             }
         }
 

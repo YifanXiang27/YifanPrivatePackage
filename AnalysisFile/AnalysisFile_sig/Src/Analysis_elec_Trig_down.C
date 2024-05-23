@@ -742,33 +742,39 @@ void Analysis::Loop(const char* TypeName, const char* yearName){
                 if(ElectronPt >= 120 ) ElectronPt = 119;
                 if(ElectronPtReco >= 500) ElectronPtReco = 499;
 
-                double leptoneffRecocentral = Elec_Eff_Reco->GetBinContent(Elec_Eff_Reco->FindBin(TRlepton1.Eta(), ElectronPtReco));
-                double leptonerrRecocentral = Elec_Eff_Reco->GetBinError(Elec_Eff_Reco->FindBin(TRlepton1.Eta(), ElectronPtReco));
+                double leptoneffTrigcentral = Elec_Eff_Trig->GetBinContent(Elec_Eff_Trig->FindBin(TRlepton1.Eta(),ElectronPtReco));
+                double leptonerrTrigcentral = Elec_Eff_Trig->GetBinError(Elec_Eff_Trig->FindBin(TRlepton1.Eta(),ElectronPtReco));
 
-                double leptonefftriggercentral = Elec_Eff_trigger->GetBinContent(Elec_Eff_trigger->FindBin(TRlepton1.Eta(),ElectronPtReco));
-                double leptonerrtriggercentral = Elec_Eff_trigger->GetBinError(Elec_Eff_trigger->FindBin(TRlepton1.Eta(),ElectronPtReco));
+                double leptoneffRecocentral = Elec_Eff_Reco->GetBinContent(Elec_Eff_Reco->FindBin(TRlepton1.Eta(),ElectronPtReco));
+                double leptonerrRecocentral = Elec_Eff_Reco->GetBinError(Elec_Eff_Reco->FindBin(TRlepton1.Eta(),ElectronPtReco));
 
-                double leptoneffReco_ttHcentral = Elec_Eff_Reco_ttH->GetBinContent(Elec_Eff_Reco_ttH->FindBin(ElectronEta, ElectronPt));
-                double leptonerrReco_ttHcentral = Elec_Eff_Reco_ttH->GetBinError(Elec_Eff_Reco_ttH->FindBin(ElectronEta, ElectronPt));
+                double leptoneffReco_Loosecentral = Elec_Eff_Reco_Loose->GetBinContent(Elec_Eff_Reco_Loose->FindBin(ElectronEta,ElectronPt));
+                double leptonerrReco_Loosecentral = Elec_Eff_Reco_Loose->GetBinError(Elec_Eff_Reco_Loose->FindBin(ElectronEta,ElectronPt));
 
-                double leptoneffttH_tightcentral = Elec_Eff_ttH_tight->GetBinContent(Elec_Eff_ttH_tight->FindBin(ElectronEta, ElectronPt));
-                double leptonerrttH_tightcentral = Elec_Eff_ttH_tight->GetBinError(Elec_Eff_ttH_tight->FindBin(ElectronEta, ElectronPt));
+                double leptoneffIsocentral = Elec_Eff_Iso->GetBinContent(Elec_Eff_Iso->FindBin(ElectronEta,ElectronPt));
+                double leptonerrIsocentral = Elec_Eff_Iso->GetBinError(Elec_Eff_Iso->FindBin(ElectronEta,ElectronPt));
+
+                double leptoneffEFTcentral = Elec_Eff_EFT->GetBinContent(Elec_Eff_EFT->FindBin(ElectronEta,ElectronPt));
+                double leptonerrEFTcentral = Elec_Eff_EFT->GetBinError(Elec_Eff_EFT->FindBin(ElectronEta,ElectronPt));
+
+                double leptonsfcentral = leptoneffTrigcentral * leptoneffRecocentral * leptoneffReco_Loosecentral * leptoneffIsocentral * leptoneffEFTcentral;
+
+                double leptonsfTrigup = (leptoneffTrigcentral + leptonerrTrigcentral) * leptoneffRecocentral * leptoneffReco_Loosecentral * leptoneffIsocentral * leptoneffEFTcentral;
+                double leptonsfRecoup = leptoneffTrigcentral * (leptoneffRecocentral + leptonerrRecocentral) * leptoneffReco_Loosecentral * leptoneffIsocentral * leptoneffEFTcentral;
+                double leptonsfReco_Looseup = leptoneffTrigcentral * leptoneffRecocentral * (leptoneffReco_Loosecentral + leptonerrReco_Loosecentral) * leptoneffIsocentral * leptoneffEFTcentral;
+                double leptonsfIsoup = leptoneffTrigcentral * leptoneffRecocentral * leptoneffReco_Loosecentral * (leptoneffIsocentral + leptonerrIsocentral) * leptoneffEFTcentral;
+                double leptonsfEFTup = leptoneffTrigcentral * leptoneffRecocentral * leptoneffReco_Loosecentral * leptoneffIsocentral * (leptoneffEFTcentral + leptonerrEFTcentral);
 
 
-                double leptonsfcentral = leptoneffRecocentral * leptonefftriggercentral * leptoneffReco_ttHcentral * leptoneffttH_tightcentral;
+                double leptonsfTrigdown = (leptoneffTrigcentral - leptonerrTrigcentral) * leptoneffRecocentral * leptoneffReco_Loosecentral * leptoneffIsocentral * leptoneffEFTcentral;
+                double leptonsfRecodown = leptoneffTrigcentral * (leptoneffRecocentral - leptonerrRecocentral) * leptoneffReco_Loosecentral * leptoneffIsocentral * leptoneffEFTcentral;
+                double leptonsfReco_Loosedown = leptoneffTrigcentral * leptoneffRecocentral * (leptoneffReco_Loosecentral - leptonerrReco_Loosecentral) * leptoneffIsocentral * leptoneffEFTcentral;
+                double leptonsfIsodown = leptoneffTrigcentral * leptoneffRecocentral * leptoneffReco_Loosecentral * (leptoneffIsocentral - leptonerrIsocentral) * leptoneffEFTcentral;
+                double leptonsfEFTdown = leptoneffTrigcentral * leptoneffRecocentral * leptoneffReco_Loosecentral * leptoneffIsocentral * (leptoneffEFTcentral - leptonerrEFTcentral);
 
-                double leptonsfRecoup = (leptoneffRecocentral + leptonerrRecocentral) * leptonefftriggercentral * leptoneffReco_ttHcentral * leptoneffttH_tightcentral;
-                double leptonsftrigup = leptoneffRecocentral * (leptonefftriggercentral + leptonerrtriggercentral) * leptoneffReco_ttHcentral * leptoneffttH_tightcentral;
-                double leptonsfReco_ttHup = leptoneffRecocentral * leptonefftriggercentral * (leptoneffReco_ttHcentral + leptonerrReco_ttHcentral) * leptoneffttH_tightcentral;
-                double leptonsfttH_tightup = leptoneffRecocentral * leptonefftriggercentral * leptoneffReco_ttHcentral * (leptoneffttH_tightcentral + leptonerrttH_tightcentral);
-
-                double leptonsfRecodown = (leptoneffRecocentral - leptonerrRecocentral) * leptonefftriggercentral * leptoneffReco_ttHcentral * leptoneffttH_tightcentral;
-                double leptonsftrigdown = leptoneffRecocentral * (leptonefftriggercentral - leptonerrtriggercentral) * leptoneffReco_ttHcentral * leptoneffttH_tightcentral;
-                double leptonsfReco_ttHdown = leptoneffRecocentral * leptonefftriggercentral * (leptoneffReco_ttHcentral - leptonerrReco_ttHcentral) * leptoneffttH_tightcentral;
-                double leptonsfttH_tightdown = leptoneffRecocentral * leptonefftriggercentral * leptoneffReco_ttHcentral * (leptoneffttH_tightcentral - leptonerrttH_tightcentral);
                 leptonsf = leptonsfcentral;
                 //ADDINGELECCORRECTIONS
-leptonsf = leptonsftrigdown;
+leptonsf = leptonsfTrigdown;
             }
             else if(abs(Idlep1) == 13){
                 double MuonEta = fabs(TRlepton1.Eta());
@@ -777,24 +783,30 @@ leptonsf = leptonsftrigdown;
                 if(MuonPt >= 120 ) MuonPt = 119;
                 if(MuonPtReco >= 200) MuonPtReco = 199;
 
-                double leptoneffRecocentral = Muon_Eff_Reco->GetBinContent(Muon_Eff_Reco->FindBin(TRlepton1.Eta(), MuonPtReco));
-                double leptonerrRecocentral = Muon_Eff_Reco->GetBinError(Muon_Eff_Reco->FindBin(TRlepton1.Eta(), MuonPtReco));
+                double leptoneffTrigcentral = Muon_Eff_Trig->GetBinContent(Muon_Eff_Trig->FindBin(TRlepton1.Eta(), MuonPtReco));
+                double leptonerrTrigcentral = Muon_Eff_Trig->GetBinError(Muon_Eff_Trig->FindBin(TRlepton1.Eta(), MuonPtReco));
 
-                double leptoneffReco_ttHcentral = Muon_Eff_Reco_ttH->GetBinContent(Muon_Eff_Reco_ttH->FindBin(MuonEta, MuonPt));
-                double leptonerrReco_ttHcentral = Muon_Eff_Reco_ttH->GetBinError(Muon_Eff_Reco_ttH->FindBin(MuonEta, MuonPt));
+                double leptoneffReco_Loosecentral = Muon_Eff_Reco_Loose->GetBinContent(Muon_Eff_Reco_Loose->FindBin(MuonEta,MuonPt));
+                double leptonerrReco_Loosecentral = Muon_Eff_Reco_Loose->GetBinError(Muon_Eff_Reco_Loose->FindBin(MuonEta, MuonPt));
+                
+                double leptoneffIsocentral = Muon_Eff_Iso->GetBinContent(Muon_Eff_Iso->FindBin(MuonEta,MuonPt));
+                double leptonerrIsocentral = Muon_Eff_Iso->GetBinError(Muon_Eff_Iso->FindBin(MuonEta, MuonPt));
 
-                double leptoneffttH_tightcentral = Muon_Eff_ttH_tight->GetBinContent(Muon_Eff_ttH_tight->FindBin(MuonEta, MuonPt));
-                double leptonerrttH_tightcentral = Muon_Eff_ttH_tight->GetBinError(Muon_Eff_ttH_tight->FindBin(MuonEta, MuonPt));
+                double leptoneffEFTcentral = Muon_Eff_EFT->GetBinContent(Muon_Eff_EFT->FindBin(MuonEta,MuonPt));
+                double leptonerrEFTcentral = Muon_Eff_EFT->GetBinError(Muon_Eff_EFT->FindBin(MuonEta, MuonPt));
 
 
-                double leptonsfcentral = leptoneffRecocentral * leptoneffReco_ttHcentral * leptoneffttH_tightcentral;
-                double leptonsfRecoup = (leptoneffRecocentral + leptonerrRecocentral) * leptoneffReco_ttHcentral * leptoneffttH_tightcentral;
-                double leptonsfReco_ttHup = leptoneffRecocentral * (leptoneffReco_ttHcentral + leptonerrReco_ttHcentral) * leptoneffttH_tightcentral;
-                double leptonsfttH_tightup = leptoneffRecocentral * leptoneffReco_ttHcentral * (leptoneffttH_tightcentral + leptonerrttH_tightcentral);
+                double leptonsfcentral = leptoneffTrigcentral * leptoneffReco_Loosecentral * leptoneffIsocentral * leptoneffEFTcentral;
 
-                double leptonsfRecodown = (leptoneffRecocentral - leptonerrRecocentral) * leptoneffReco_ttHcentral * leptoneffttH_tightcentral;
-                double leptonsfReco_ttHdown = leptoneffRecocentral * (leptoneffReco_ttHcentral - leptonerrReco_ttHcentral) * leptoneffttH_tightcentral;
-                double leptonsfttH_tightdown = leptoneffRecocentral * leptoneffReco_ttHcentral * (leptoneffttH_tightcentral - leptonerrttH_tightcentral);
+                double leptonsfTrigup = (leptoneffTrigcentral + leptonerrTrigcentral) * leptoneffReco_Loosecentral * leptoneffIsocentral * leptoneffEFTcentral;
+                double leptonsfReco_Looseup = leptoneffTrigcentral * (leptoneffReco_Loosecentral + leptonerrReco_Loosecentral) * leptoneffIsocentral * leptoneffEFTcentral;
+                double leptonsfIsoup = leptoneffTrigcentral * leptoneffReco_Loosecentral * (leptoneffIsocentral + leptonerrIsocentral) * leptoneffEFTcentral;
+                double leptonsfEFTup = leptoneffTrigcentral * leptoneffReco_Loosecentral * leptoneffIsocentral * (leptoneffEFTcentral + leptonerrEFTcentral);
+
+                double leptonsfTrigdown = (leptoneffTrigcentral - leptonerrTrigcentral) * leptoneffReco_Loosecentral * leptoneffIsocentral * leptoneffEFTcentral;
+                double leptonsfReco_Loosedown = leptoneffTrigcentral * (leptoneffReco_Loosecentral - leptonerrReco_Loosecentral) * leptoneffIsocentral * leptoneffEFTcentral;
+                double leptonsfIsodown = leptoneffTrigcentral * leptoneffReco_Loosecentral * (leptoneffIsocentral - leptonerrIsocentral) * leptoneffEFTcentral;
+                double leptonsfEFTdown = leptoneffTrigcentral * leptoneffReco_Loosecentral * leptoneffIsocentral * (leptoneffEFTcentral - leptonerrEFTcentral);
 
                 leptonsf = leptonsfcentral;
                 //ADDINGMUONCORRECTIONS
