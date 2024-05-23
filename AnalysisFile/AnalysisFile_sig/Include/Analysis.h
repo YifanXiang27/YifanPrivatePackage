@@ -307,19 +307,33 @@ class Analysis{
 
         TRandom3 *myrandom;
 
-        TH2D *Muon_Eff_LooseID;
-        TH2D *Muon_EGM2D;
-        TH2D *Elec_Eff_LooseID;
-        TH2D *Elec_EGM2D;
+//        TH2D *Muon_Eff_LooseID;
+//        TH2D *Muon_EGM2D;
+//        TH2D *Elec_Eff_LooseID;
+//        TH2D *Elec_EGM2D;
 
-        TH2D *Muon_Eff_Reco;
-        TH2D *Muon_Eff_Reco_ttH;
-        TH2D *Muon_Eff_ttH_tight;
+//        TH2D *Muon_Eff_Reco;
+//        TH2D *Muon_Eff_Reco_ttH;
+//        TH2D *Muon_Eff_ttH_tight;
 
+//        TH2D *Elec_Eff_Reco;
+//        TH2D *Elec_Eff_trigger;
+//        TH2D *Elec_Eff_Reco_ttH;
+//        TH2D *Elec_Eff_ttH_tight;
+
+
+        TH2D *Muon_Eff_Trig;
+        TH2D *Muon_Eff_Reco_Loose;
+        TH2D *Muon_Eff_Iso;
+        TH2D *Muon_Eff_EFT;
+
+        TH2D *Elec_Eff_Trig;
         TH2D *Elec_Eff_Reco;
-        TH2D *Elec_Eff_trigger;
-        TH2D *Elec_Eff_Reco_ttH;
-        TH2D *Elec_Eff_ttH_tight;
+        TH2D *Elec_Eff_Reco_Loose;
+        TH2D *Elec_Eff_Iso;
+        TH2D *Elec_Eff_EFT;
+
+
 
         TH2D *P_Ak4Jet_Scale[11];
 
@@ -452,64 +466,121 @@ Analysis::Analysis(const char* ifileName, const char* TypeName, const char* year
     bool if2018 = ((InputYear.find("2018",0)) != string::npos);
 
 //    TFile *file_Muon_Eff_ID = new TFile("./Include/ttHSF/MuonSFs/MuonEff.root");
+
     if(if2016APV){
-        TFile *file_Muon_Eff_Reco = new TFile("./Include/efficiency/Muon_UL/2016_preVFP/2016_preVFP_trigger/Efficiencies_muon_generalTracks_Z_Run2016_UL_HIPM_SingleMuonTriggers.root");
-        Muon_Eff_Reco = (TH2D *)file_Muon_Eff_Reco->Get("NUM_IsoMu24_or_IsoTkMu24_DEN_CutBasedIdTight_and_PFIsoTight_eta_pt");
-        TFile *file_Muon_Eff_Reco_ttH = new TFile("./Include/efficiency/ttHAnalysis/TnP_loose_muon_2016.root");
-        Muon_Eff_Reco_ttH = (TH2D *)file_Muon_Eff_Reco_ttH->Get("EGamma_SF2D");
-        TFile *file_Muon_Eff_ttH_tight = new TFile("./Include/efficiency/ttHAnalysis/TnP_ttH_muon_2016_2lss/passttH/egammaEffi.txt_EGM2D.root");
-        Muon_Eff_ttH_tight = (TH2D *)file_Muon_Eff_ttH_tight->Get("EGamma_SF2D");
+        TFile *file_Muon_Eff_Trig = new TFile("./Include/efficiency/Muon_UL/2016_preVFP/2016_preVFP_trigger/Efficiencies_muon_generalTracks_Z_Run2016_UL_HIPM_SingleMuonTriggers.root");
+        Muon_Eff_Trig = (TH2D *)file_Muon_Eff_Trig->Get("NUM_IsoMu24_or_IsoTkMu24_DEN_CutBasedIdTight_and_PFIsoTight_eta_pt");
+
+        TFile *file_Muon_Eff_Reco_Loose = new TFile("./Include/leptonsfs/muon/output_histograms.root");
+        Muon_Eff_Reco_Loose = (TH2D *)file_Muon_Eff_Reco_Loose->Get("P_muon_generalTracks_Z_Run2016_UL_HIPM_ID");
+
+        TFile *file_Muon_Eff_Iso = new TFile("./Include/leptonsfs/muon/egammaEffi2016APV_iso_EGM2D.root");
+        Muon_Eff_Iso = (TH2D *)file_Muon_Eff_Iso->Get("EGamma_SF2D");
+
+        TFile *file_Muon_Eff_EFT = new TFile("./Include/leptonsfs/muon/egammaEffi2016APV_EGM2D.root");
+        Muon_Eff_EFT = (TH2D *)file_Muon_Eff_EFT->Get("EGamma_SF2D");
     }else if(if2016){
-        TFile *file_Muon_Eff_Reco = new TFile("./Include/efficiency/Muon_UL/2016_postVFP/2016_postVFP_trigger/Efficiencies_muon_generalTracks_Z_Run2016_UL_SingleMuonTriggers.root");
-        Muon_Eff_Reco = (TH2D *)file_Muon_Eff_Reco->Get("NUM_IsoMu24_or_IsoTkMu24_DEN_CutBasedIdTight_and_PFIsoTight_eta_pt");
-        TFile *file_Muon_Eff_Reco_ttH = new TFile("./Include/efficiency/ttHAnalysis/TnP_loose_muon_2016.root");
-        Muon_Eff_Reco_ttH = (TH2D *)file_Muon_Eff_Reco_ttH->Get("EGamma_SF2D");
-        TFile *file_Muon_Eff_ttH_tight = new TFile("./Include/efficiency/ttHAnalysis/TnP_ttH_muon_2016_2lss/passttH/egammaEffi.txt_EGM2D.root");
-        Muon_Eff_ttH_tight = (TH2D *)file_Muon_Eff_ttH_tight->Get("EGamma_SF2D");
+        TFile *file_Muon_Eff_Trig = new TFile("./Include/efficiency/Muon_UL/2016_postVFP/2016_postVFP_trigger/Efficiencies_muon_generalTracks_Z_Run2016_UL_SingleMuonTriggers.root");
+        Muon_Eff_Trig = (TH2D *)file_Muon_Eff_Trig->Get("NUM_IsoMu24_or_IsoTkMu24_DEN_CutBasedIdTight_and_PFIsoTight_eta_pt");
+
+        TFile *file_Muon_Eff_Reco_Loose = new TFile("./Include/leptonsfs/muon/output_histograms.root");
+        Muon_Eff_Reco_Loose = (TH2D *)file_Muon_Eff_Reco_Loose->Get("P_muon_generalTracks_Z_Run2016_UL_ID");
+
+        TFile *file_Muon_Eff_Iso = new TFile("./Include/leptonsfs/muon/egammaEffi2016_iso_EGM2D.root");
+        Muon_Eff_Iso = (TH2D *)file_Muon_Eff_Iso->Get("EGamma_SF2D");
+
+        TFile *file_Muon_Eff_EFT = new TFile("./Include/leptonsfs/muon/egammaEffi2016_EGM2D.root");
+        Muon_Eff_EFT = (TH2D *)file_Muon_Eff_EFT->Get("EGamma_SF2D");
     }else if(if2017){
-        TFile *file_Muon_Eff_Reco = new TFile("./Include/efficiency/Muon_UL/2017/2017_trigger/Efficiencies_muon_generalTracks_Z_Run2017_UL_SingleMuonTriggers.root");
-        Muon_Eff_Reco = (TH2D *)file_Muon_Eff_Reco->Get("NUM_IsoMu27_DEN_CutBasedIdTight_and_PFIsoTight_eta_pt");
-        TFile *file_Muon_Eff_Reco_ttH = new TFile("./Include/efficiency/ttHAnalysis/TnP_loose_muon_2017.root");
-        Muon_Eff_Reco_ttH = (TH2D *)file_Muon_Eff_Reco_ttH->Get("EGamma_SF2D");
-        TFile *file_Muon_Eff_ttH_tight = new TFile("./Include/efficiency/ttHAnalysis/TnP_ttH_muon_2017_2lss/passttH/egammaEffi.txt_EGM2D.root");
-        Muon_Eff_ttH_tight = (TH2D *)file_Muon_Eff_ttH_tight->Get("EGamma_SF2D");
+        TFile *file_Muon_Eff_Trig = new TFile("./Include/efficiency/Muon_UL/2017/2017_trigger/Efficiencies_muon_generalTracks_Z_Run2017_UL_SingleMuonTriggers.root");
+        Muon_Eff_Trig = (TH2D *)file_Muon_Eff_Trig->Get("NUM_IsoMu27_DEN_CutBasedIdTight_and_PFIsoTight_eta_pt");
+        
+        TFile *file_Muon_Eff_Reco_Loose = new TFile("./Include/leptonsfs/muon/output_histograms.root");
+        Muon_Eff_Reco_Loose = (TH2D *)file_Muon_Eff_Reco_Loose->Get("P_muon_generalTracks_Z_Run2017_UL_ID");
+
+        TFile *file_Muon_Eff_Iso = new TFile("./Include/leptonsfs/muon/egammaEffi2017_iso_EGM2D.root");
+        Muon_Eff_Iso = (TH2D *)file_Muon_Eff_Iso->Get("EGamma_SF2D");
+
+        TFile *file_Muon_Eff_EFT = new TFile("./Include/leptonsfs/muon/egammaEffi2017_EGM2D.root");
+        Muon_Eff_EFT = (TH2D *)file_Muon_Eff_EFT->Get("EGamma_SF2D");
     }else if(if2018){
-        TFile *file_Muon_Eff_Reco = new TFile("./Include/efficiency/Muon_UL/2018/2018_trigger/Efficiencies_muon_generalTracks_Z_Run2018_UL_SingleMuonTriggers.root");
-        Muon_Eff_Reco = (TH2D *)file_Muon_Eff_Reco->Get("NUM_IsoMu24_DEN_CutBasedIdTight_and_PFIsoTight_eta_pt");
-        TFile *file_Muon_Eff_Reco_ttH = new TFile("./Include/efficiency/ttHAnalysis/TnP_loose_muon_2018.root");
-        Muon_Eff_Reco_ttH = (TH2D *)file_Muon_Eff_Reco_ttH->Get("EGamma_SF2D");
-        TFile *file_Muon_Eff_ttH_tight = new TFile("./Include/efficiency/ttHAnalysis/TnP_ttH_muon_2018_2lss/passttH/egammaEffi.txt_EGM2D.root");
-        Muon_Eff_ttH_tight = (TH2D *)file_Muon_Eff_ttH_tight->Get("EGamma_SF2D");
+        TFile *file_Muon_Eff_Trig = new TFile("./Include/efficiency/Muon_UL/2018/2018_trigger/Efficiencies_muon_generalTracks_Z_Run2018_UL_SingleMuonTriggers.root");
+        Muon_Eff_Trig = (TH2D *)file_Muon_Eff_Trig->Get("NUM_IsoMu24_DEN_CutBasedIdTight_and_PFIsoTight_eta_pt");
+
+        TFile *file_Muon_Eff_Reco_Loose = new TFile("./Include/leptonsfs/muon/output_histograms.root");
+        Muon_Eff_Reco_Loose = (TH2D *)file_Muon_Eff_Reco_Loose->Get("P_muon_generalTracks_Z_Run2018_UL_ID");
+
+        TFile *file_Muon_Eff_Iso = new TFile("./Include/leptonsfs/muon/egammaEffi2018_iso_EGM2D.root");
+        Muon_Eff_Iso = (TH2D *)file_Muon_Eff_Iso->Get("EGamma_SF2D");
+
+        TFile *file_Muon_Eff_EFT = new TFile("./Include/leptonsfs/muon/egammaEffi2018_EGM2D.root");
+        Muon_Eff_EFT = (TH2D *)file_Muon_Eff_EFT->Get("EGamma_SF2D");
     }
 
-    if(if2016APV || if2016){
-        TFile *file_Elec_Eff_Reco = new TFile("./Include/efficiency/RecoEff/2016/el_scaleFactors_gsf_ptGt20.root");
-        Elec_Eff_Reco = (TH2D *)file_Elec_Eff_Reco->Get("EGamma_SF2D");
-        TFile *file_Elec_trigger = new TFile("./Include/hlt_sfs/electron_hlt_sfs_2016.root");
-        Elec_Eff_trigger = (TH2D *)file_Elec_trigger->Get("EGamma_SF2D");
-        TFile *file_Elec_Eff_Reco_ttH = new TFile("./Include/efficiency/ttHAnalysis/TnP_loose_ele_2016.root");
-        Elec_Eff_Reco_ttH = (TH2D *)file_Elec_Eff_Reco_ttH->Get("EGamma_SF2D");
-        TFile *file_Elec_Eff_ttH_tight = new TFile("./Include/efficiency/ttHAnalysis/TnP_ttH_ele_2016_2lss/passttH/egammaEffi.txt_EGM2D.root");
-        Elec_Eff_ttH_tight = (TH2D *)file_Elec_Eff_ttH_tight->Get("EGamma_SF2D");
+
+    if(if2016APV){
+        TFile *file_Elec_Trig = new TFile("./Include/hlt_sfs/electron_hlt_sfs_2016.root");
+        Elec_Eff_Trig = (TH2D *)file_Elec_Trig->Get("EGamma_SF2D");
+
+        TFile *file_Elec_Reco = new TFile("./Include/leptonsfs/elec/egammaEffi2016APV_ptAbove20_EGM2D.root");
+        Elec_Eff_Reco = (TH2D *)file_Elec_Reco->Get("EGamma_SF2D");
+
+        TFile *file_Elec_Reco_Loose = new TFile("./Include/leptonsfs/elec/egammaEffi2016APV_recoToloose_EGM2D.root");
+        Elec_Eff_Reco_Loose = (TH2D *)file_Elec_Reco_Loose->Get("EGamma_SF2D");
+
+        TFile *file_Elec_Iso = new TFile("./Include/leptonsfs/elec/egammaEffi2016APV_iso_EGM2D.root");
+        Elec_Eff_Iso = (TH2D *)file_Elec_Iso->Get("EGamma_SF2D");
+
+        TFile *file_Elec_EFT = new TFile("./Include/leptonsfs/elec/egammaEffi2016APV_2lss_EGM2D.root");
+        Elec_Eff_EFT = (TH2D *)file_Elec_EFT->Get("EGamma_SF2D");
+    }else if(if2016){
+        TFile *file_Elec_Trig = new TFile("./Include/hlt_sfs/electron_hlt_sfs_2016.root");
+        Elec_Eff_Trig = (TH2D *)file_Elec_Trig->Get("EGamma_SF2D");
+
+        TFile *file_Elec_Reco = new TFile("./Include/leptonsfs/elec/egammaEffi2016_ptAbove20_EGM2D.root");
+        Elec_Eff_Reco = (TH2D *)file_Elec_Reco->Get("EGamma_SF2D");
+
+        TFile *file_Elec_Reco_Loose = new TFile("./Include/leptonsfs/elec/egammaEffi2016_recoToloose_EGM2D.root");
+        Elec_Eff_Reco_Loose = (TH2D *)file_Elec_Reco_Loose->Get("EGamma_SF2D");
+
+        TFile *file_Elec_Iso = new TFile("./Include/leptonsfs/elec/egammaEffi2016_iso_EGM2D.root");
+        Elec_Eff_Iso = (TH2D *)file_Elec_Iso->Get("EGamma_SF2D");
+
+        TFile *file_Elec_EFT = new TFile("./Include/leptonsfs/elec/egammaEffi2016_2lss_EGM2D.root");
+        Elec_Eff_EFT = (TH2D *)file_Elec_EFT->Get("EGamma_SF2D");
     }else if(if2017){
-        TFile *file_Elec_Eff_Reco = new TFile("./Include/efficiency/RecoEff/2017/el_scaleFactors_gsf_ptGt20.root");
-        Elec_Eff_Reco = (TH2D *)file_Elec_Eff_Reco->Get("EGamma_SF2D");
-        TFile *file_Elec_trigger = new TFile("./Include/hlt_sfs/electron_hlt_sfs_2017.root");
-        Elec_Eff_trigger = (TH2D *)file_Elec_trigger->Get("EGamma_SF2D");
-        TFile *file_Elec_Eff_Reco_ttH = new TFile("./Include/efficiency/ttHAnalysis/TnP_loose_ele_2017.root");
-        Elec_Eff_Reco_ttH = (TH2D *)file_Elec_Eff_Reco_ttH->Get("EGamma_SF2D");
-        TFile *file_Elec_Eff_ttH_tight = new TFile("./Include/efficiency/ttHAnalysis/TnP_ttH_ele_2017_2lss/passttH/egammaEffi.txt_EGM2D.root");
-        Elec_Eff_ttH_tight = (TH2D *)file_Elec_Eff_ttH_tight->Get("EGamma_SF2D");
+        TFile *file_Elec_Trig = new TFile("./Include/hlt_sfs/electron_hlt_sfs_2017.root");
+        Elec_Eff_Trig = (TH2D *)file_Elec_Trig->Get("EGamma_SF2D");
+
+        TFile *file_Elec_Reco = new TFile("./Include/leptonsfs/elec/egammaEffi2017_ptAbove20_EGM2D.root");
+        Elec_Eff_Reco = (TH2D *)file_Elec_Reco->Get("EGamma_SF2D");
+
+        TFile *file_Elec_Reco_Loose = new TFile("./Include/leptonsfs/elec/egammaEffi2017_recoToloose_EGM2D.root");
+        Elec_Eff_Reco_Loose = (TH2D *)file_Elec_Reco_Loose->Get("EGamma_SF2D");
+
+        TFile *file_Elec_Iso = new TFile("./Include/leptonsfs/elec/egammaEffi2017_iso_EGM2D.root");
+        Elec_Eff_Iso = (TH2D *)file_Elec_Iso->Get("EGamma_SF2D");
+
+        TFile *file_Elec_EFT = new TFile("./Include/leptonsfs/elec/egammaEffi2017_2lss_EGM2D.root");
+        Elec_Eff_EFT = (TH2D *)file_Elec_EFT->Get("EGamma_SF2D");
     }else if(if2018){
-        TFile *file_Elec_Eff_Reco = new TFile("./Include/efficiency/RecoEff/2018/el_scaleFactors_gsf.root");
-        Elec_Eff_Reco = (TH2D *)file_Elec_Eff_Reco->Get("EGamma_SF2D");
-        TFile *file_Elec_trigger = new TFile("./Include/hlt_sfs/electron_hlt_sfs_2018.root");
-        Elec_Eff_trigger = (TH2D *)file_Elec_trigger->Get("EGamma_SF2D");
-        TFile *file_Elec_Eff_Reco_ttH = new TFile("./Include/efficiency/ttHAnalysis/TnP_loose_ele_2018.root");
-        Elec_Eff_Reco_ttH = (TH2D *)file_Elec_Eff_Reco_ttH->Get("EGamma_SF2D");
-        TFile *file_Elec_Eff_ttH_tight = new TFile("./Include/efficiency/ttHAnalysis/TnP_ttH_ele_2018_2lss/passttH/egammaEffi.txt_EGM2D.root");
-        Elec_Eff_ttH_tight = (TH2D *)file_Elec_Eff_ttH_tight->Get("EGamma_SF2D");
+        TFile *file_Elec_Trig = new TFile("./Include/hlt_sfs/electron_hlt_sfs_2018.root");
+        Elec_Eff_Trig = (TH2D *)file_Elec_Trig->Get("EGamma_SF2D");
+
+        TFile *file_Elec_Reco = new TFile("./Include/leptonsfs/elec/egammaEffi2018_ptAbove20_EGM2D.root");
+        Elec_Eff_Reco = (TH2D *)file_Elec_Reco->Get("EGamma_SF2D");
+
+        TFile *file_Elec_Reco_Loose = new TFile("./Include/leptonsfs/elec/egammaEffi2018_recoToloose_EGM2D.root");
+        Elec_Eff_Reco_Loose = (TH2D *)file_Elec_Reco_Loose->Get("EGamma_SF2D");
+
+        TFile *file_Elec_Iso = new TFile("./Include/leptonsfs/elec/egammaEffi2018_iso_EGM2D.root");
+        Elec_Eff_Iso = (TH2D *)file_Elec_Iso->Get("EGamma_SF2D");
+
+        TFile *file_Elec_EFT = new TFile("./Include/leptonsfs/elec/egammaEffi2018_2lss_EGM2D.root");
+        Elec_Eff_EFT = (TH2D *)file_Elec_EFT->Get("EGamma_SF2D");
     }
+
+
 
 
 /*
